@@ -12,23 +12,18 @@
           <a class="nav-link active" aria-current="page" href="index.php#accueil">Accueil</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.php#presentation">Présentation</a>
+          <a class="nav-link" href="index.php#competences">Mon parcours scolaire</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="index.php#competences">Compétences</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../source/pdf/Lalanne_Berdouticq_CV.pdf" download="Lalanne-Berdouticq-Andoni">Mon CV</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="index.php#mesProjets">Mes projets</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.php#temoignages">Témoignages</a>
+          <a class="nav-link" href="../source/pdf/Lalanne_Berdouticq_CV.pdf" download="Lalanne-Berdouticq-Andoni">Mon CV</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.php">Contact</a>
-        </li>
+        
       </ul>
   </div>
 </nav>

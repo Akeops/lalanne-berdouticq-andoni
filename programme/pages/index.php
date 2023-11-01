@@ -2,45 +2,23 @@
 require '../utile/formatage.php';
 ?>
 
-<!-- Caroussel -->
-<div id="carouselExampleIndicators" class="carousel slide perso_bgYellowDegrade">
-    <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-warning" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bg-warning" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="bg-warning" aria-label="Slide 3"></button>
+<!-- Présentation de ma personne -->
+<div class="container text-center" id="accueil">
+    <?= formatageTitre("Andoni Lalanne-Berdouticq") ?>
+    <div class="row">
+    <div class="col">
+      Column
     </div>
-    <div class="carousel-inner" id="accueil">
-        <div class="carousel-item active">
-            <img src="../source/images/img1.jpg" class="d-block w-75 h-75 mx-auto img-thumbnail border border-dark" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="../source/images/img2.jpg" class="d-block w-75 h-75 mx-auto img-thumbnail border border-dark" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="../source/images/img3.jpg" class="d-block w-75 h-75 mx-auto img-thumbnail border border-dark" alt="...">
-        </div>
+    <div class="col">
+      Column
     </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon " aria-hidden="true"></span>
-            <span class="visually-hidden bg-warning">Next</span>
-        </button>
+  </div>
 </div>
 
 <div class="text-center mt-3">
     <a class="btn btn-success rounded-pill monBouton" href="../source/pdf/Lalanne_Berdouticq_CV.pdf" download="Lalanne-Berdouticq-Andoni">Télécharger mon CV</a>
 </div>
 
-<!-- Intégration vidéo -->
-<div class="container text-center" id="presentation">
-    <?= formatageTitre("Andoni Lalanne-Berdouticq") ?>
-    <div class="ratio ratio-16x9 img-thumbnail">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/SpfIwlAYaKk?si=0-VEXcV-HTMQv9Kv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
-</div>
 
 <!-- Progress bar -->
 <div class="container text-center" id="competences">
@@ -72,7 +50,6 @@ require '../utile/formatage.php';
         </div>
     </div>
 </div>
-
 
 
 <!-- Card -->
@@ -173,30 +150,7 @@ require '../utile/formatage.php';
         </div>
     </div>
 
-    <!-- Section des témoignages -->
-    <div class="container text-center" id="temoignages">
-        <?= formatageTitre("Mes témoignages") ?>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-4 temoignage1" style="width: 18rem;">
-                    <img src="../source/images/card1.jpg" class="card-img-top border border-danger-subtle rounded" style="width:150px;height:150px;" alt="..."> 
-                    <h3>Negu</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nostrum, quaerat doloribus incidunt inventore odit distinctio? Temporibus non vitae soluta doloremque repellat cupiditate, voluptas ut ad ipsum, eius, et numquam?</p>
-                </div>
-                <div class="col-12 col-lg-4 temoignage2" style="width: 18rem;">
-                    <img src="../source/images/thomas.png" class="card-img-top border border-danger-subtle rounded" style="width:150px;height:150px;" alt="...">  
-                    <h3>Thomas</h3>
-                    <p>Je pense qu'Andoni est vraiment la meilleur Tristana world.</p>   
-                </div>
-                <div class="col-12 col-lg-4 temoignage3" style="width: 18rem;">
-                    <img src="../source/images/logo3.png" class="card-img-top border border-danger-subtle rounded" style="width:150px;height:150px;" alt="...">
-                    <h3>Negu</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nostrum, quaerat doloribus incidunt inventore odit distinctio? Temporibus non vitae soluta doloremque repellat cupiditate, voluptas ut ad ipsum, eius, et numquam?</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Intégration du jquery pour que le main.js fonctionne -->
     <script src="../js/main.js"></script>
 
 <?php
