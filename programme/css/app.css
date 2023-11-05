@@ -17,6 +17,7 @@ body {
 
 
 /* MENU */
+
 .perso_bgBlack { /* Background-color navbar */
     background-color: rgba(59,14,17,255) !important;
 }
@@ -50,12 +51,30 @@ body {
         100%{left:0px;}
 }
 
-
-/* CAROUSSEL */
-.perso_colorYellow { /* Couleur du titre des sections */
-    font-weight: bold;
+/* PRESENTATION */
+div.presentation { 
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
 }
 
+div.presentationDescription { 
+    display: flex;
+    justify-content: center; /* Aligne horizontalement le texte au centre */
+    align-items: center; /* Aligne verticalement le texte au centre */
+    height: 200px; /* Vous pouvez ajuster la hauteur selon vos besoins */
+    border: 1px solid #ccc; /* Pour visualiser la zone de l'élément parent */
+}
+
+.presentationDescription p {
+    width: auto;
+    text-align: center; /* Centre le texte à l'intérieur du paragraphe */
+}
+
+/* TITRES */
+.perso_colorYellow { /* Affiche les titres en gras */
+    font-weight: bold;
+}
 
 
 .monBouton {
