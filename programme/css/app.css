@@ -60,16 +60,13 @@ div.presentation {
 
 div.presentationDescription { 
     display: flex;
-    justify-content: center; /* Aligne horizontalement le texte au centre */
     align-items: center; /* Aligne verticalement le texte au centre */
+    width: auto;
     height: 200px; /* Vous pouvez ajuster la hauteur selon vos besoins */
     border: 1px solid #ccc; /* Pour visualiser la zone de l'élément parent */
 }
 
-.presentationDescription p {
-    width: auto;
-    text-align: center; /* Centre le texte à l'intérieur du paragraphe */
-}
+
 
 /* TITRES */
 .perso_colorYellow { /* Affiche les titres en gras */

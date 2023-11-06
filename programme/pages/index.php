@@ -6,23 +6,15 @@ require '../utile/formatage.php';
 <div class="container text-center" id="accueil">
     <?= formatageTitre("Andoni Lalanne-Berdouticq") ?>
     <div class="row">
-        <div class="col  presentation">
-            <div class="col-12 col-md-6">
-                <img src="../source/images/exemple.png" class="card-img-top" style="width:200px;" alt="...">
-            </div>
+        <div class="col-12 col-md-6  presentation">
+            <img src="../source/images/exemple.png" class="card-img-top img-fluid" style="width:200px;" alt="...">
         </div>
-        <div class="col presentationDescription">
-            <div class="col-12 col-md-6">
-                <div class="card" >
-                    <div class="card-body">
-                        <p class="card-text">Je suis [Votre Nom], un passionné de développement informatique avec un BTS en [Nom de votre BTS]. Ayant récemment repris mes études dans le domaine du développement, je me spécialise actuellement dans [mentionnez votre spécialisation ou les technologies que vous étudiez]. Mon parcours m'a doté de solides compétences en [mentionnez les compétences acquises lors de votre BTS, par exemple : programmation, conception web, etc.], que je m'efforce de perfectionner chaque jour.
-
-                        Déterminé(e) à faire du développement mon métier, je recherche des opportunités professionnelles pour mettre en pratique mes compétences, contribuer à des projets innovants et continuer à élargir mes connaissances dans ce domaine en constante évolution. Mon objectif est de créer des solutions technologiques créatives et efficaces, tout en collaborant avec des équipes passionnées.
-
-                        Explorez mon portfolio pour découvrir mes réalisations et projets. Je suis ouvert(e) aux opportunités de collaboration et aux défis professionnels stimulants. Ensemble, faisons progresser le monde du développement informatique.</p>
+        <div class="col-12 col-md-6 presentationDescription">
+                <div class="card">
+                    <div class="card-body" >
+                        <p class="card-text">Je suis [Votre Nom], un passionné de développement informatique avec un BTS en [Nom de votre BTS]. Ayant récemment repris mes études dans le domaine du développement, je me spécialise actuellement dans [mentionnez votre spécialisation ou les technologies que vous étudiez]. Mon parcours m'a doté de solides compétences en [mentionnez les compétences acquises lors de votre BTS, par exemple : programmation, conception web, etc.], que je m'efforce de perfectionner chaque jour.</p>
                     </div>
                 </div>
-            </div>
         </div>
     </div>
 </div>
