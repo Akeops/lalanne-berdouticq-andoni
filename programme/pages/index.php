@@ -10,11 +10,7 @@ require '../utile/formatage.php';
             <img src="../source/images/exemple.png" class="card-img-top img-fluid" style="width:200px;" alt="...">
         </div>
         <div class="col-12 col-md-6 presentationDescription">
-                <div class="card">
-                    <div class="card-body" >
-                        <p class="card-text">Je suis [Votre Nom], un passionné de développement informatique avec un BTS en [Nom de votre BTS]. Ayant récemment repris mes études dans le domaine du développement, je me spécialise actuellement dans [mentionnez votre spécialisation ou les technologies que vous étudiez]. Mon parcours m'a doté de solides compétences en [mentionnez les compétences acquises lors de votre BTS, par exemple : programmation, conception web, etc.], que je m'efforce de perfectionner chaque jour.</p>
-                    </div>
-                </div>
+                <p>Je suis [Votre Nom], un passionné de développement informatique avec un BTS en [Nom de votre BTS]. Ayant récemment repris mes études dans le domaine du développement, je me spécialise actuellement dans [mentionnez votre spécialisation ou les technologies que vous étudiez]. Mon parcours m'a doté de solides compétences en [mentionnez les compétences acquises lors de votre BTS, par exemple : programmation, conception web, etc.], que je m'efforce de perfectionner chaque jour.</p>
         </div>
     </div>
 </div>

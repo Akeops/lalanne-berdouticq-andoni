@@ -52,18 +52,21 @@ body {
 }
 
 /* PRESENTATION */
-div.presentation { 
-    display: flex;
+div.presentation { /* Cible la div de l'image */ 
     justify-content: center; /* Centre horizontalement */
     align-items: center; /* Centre verticalement */
+    border: 1px solid #ccc; /* Pour visualiser la zone de l'élément parent */
 }
 
-div.presentationDescription { 
+div.presentationDescription {  /* Cible la div du texte */
     display: flex;
     align-items: center; /* Aligne verticalement le texte au centre */
-    width: auto;
     height: 200px; /* Vous pouvez ajuster la hauteur selon vos besoins */
     border: 1px solid #ccc; /* Pour visualiser la zone de l'élément parent */
+}
+
+div.presentationDescription p {  /* Cible la div du texte */
+    align-items: center; /* Centre verticalement */
 }
 
 
