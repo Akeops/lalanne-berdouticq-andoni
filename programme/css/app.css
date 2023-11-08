@@ -103,13 +103,6 @@ div.presentationDescription p {  /* Cible le texte du div "div.presentationDescr
 }
 
 
-
-/* TITRES */
-.perso_colorYellow { /* Affiche les titres en gras */
-    font-weight: bold;
-}
-
-
 .monBouton {
     margin-top: 2rem;
     animation-name: bouton;

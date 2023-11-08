@@ -10,7 +10,7 @@ require '../utile/formatage.php';
             <img src="../source/images/exemple.png" class="card-img-top img-fluid" style="width:236px;" alt="...">
         </div>
         <div class="col-12 col-xl-6 presentationDescription">
-                <p>Je suis Lalanne-Berdouticq Andoni, un passionné de développement informatique avec un BTS en SIO option SLAM. Ayant récemment repris mes études dans la lignée de mon BTS à Efrei, je me spécialise actuellement dans le développement Full-Stack en Javascript. Mon parcours m'a doté de solides compétences en PHP, Bootsrap, CSS, Docker, Javascript</p>
+                <p>Je suis Lalanne-Berdouticq Andoni, un passionné de développement informatique avec un BTS en SIO option SLAM. Ayant récemment repris mes études dans la lignée de mon BTS à Efrei, je me spécialise actuellement dans le développement Full-Stack en Javascript. Mon parcours m'a doté de solides compétences en PHP, Bootstrap, CSS, Docker et Javascript.</p>
         </div>
     </div>
 </div>
@@ -19,6 +19,82 @@ require '../utile/formatage.php';
     <a class="btn btn-success rounded-pill monBouton" href="../source/pdf/Lalanne_Berdouticq_CV.pdf" download="Lalanne-Berdouticq-Andoni">Télécharger mon CV</a>
 </div>
 
+<!-- Mes expériences professionnel -->
+<!-- Card -->
+<div class="container text-center" id="expProfessionnels">
+    <?= formatageTitre("Mon expériences professionnel") ?>
+    <div class="m-5 container text-center">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width:236px;">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="rounded-3" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/ecreatures.png" class="card-img-top" height="165px" alt="ecreatures"></button>    
+                </div>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="../source/images/card2.jpg" class="card-img-top" height="165px" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ITwatchdog</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cours2">Détails</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="../source/images/card3.jpg" class="card-img-top" height="165px" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Je ne sais pas encore</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cours3">Détails</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+
+    <!-- Modal (Fenêtre qui apparaît quand on clique sur le bouton de la card) -->
+    <div class="modal fade" id="entreprise1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 fw-semibold" id="exampleModalLabel">Ecreatures</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../source/images/ecreatures.png" class="card-img-top" alt="...">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fugit nemo libero ipsa blanditiis earum unde, neque eum modi obcaecati repellendus odio quos deserunt sunt quia nobis reprehenderit! Laboriosam, optio.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal (Fenêtre qui apparaît quand on clique sur le bouton de la card) -->
+    <div class="modal fade" id="cours2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="cours2">ITwatchdog</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../source/images/card2.jpg" class="card-img-top" alt="...">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fugit nemo libero ipsa blanditiis earum unde, neque eum modi obcaecati repellendus odio quos deserunt sunt quia nobis reprehenderit! Laboriosam, optio.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <!-- Progress bar -->
 <div class="container text-center" id="competences">
