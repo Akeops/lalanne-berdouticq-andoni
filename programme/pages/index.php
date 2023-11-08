@@ -10,7 +10,7 @@ require '../utile/formatage.php';
             <img src="../source/images/exemple.png" class="card-img-top img-fluid" style="width:236px;" alt="...">
         </div>
         <div class="col-12 col-xl-6 presentationDescription">
-                <p>Je suis [Votre Nom], un passionné de développement informatique avec un BTS en [Nom de votre BTS]. Ayant récemment repris mes études dans le domaine du développement, je me spécialise actuellement dans [mentionnez votre spécialisation ou les technologies que vous étudiez]. Mon parcours m'a doté de solides compétences en [mentionnez les compétences acquises lors de votre BTS, par exemple : programmation, conception web, etc.]</p>
+                <p>Je suis Lalanne-Berdouticq Andoni, un passionné de développement informatique avec un BTS en SIO option SLAM. Ayant récemment repris mes études dans la lignée de mon BTS à Efrei, je me spécialise actuellement dans le développement Full-Stack en Javascript. Mon parcours m'a doté de solides compétences en PHP, Bootsrap, CSS, Docker, Javascript</p>
         </div>
     </div>
 </div>
