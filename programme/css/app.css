@@ -18,7 +18,7 @@ body {
 
 /* MENU */
 
-.perso_bgBlack { /* Background-color navbar */
+.perso_bgBlack { /* Background-color de la navbar */
     background-color: rgba(59,14,17,255) !important;
 }
 
@@ -104,9 +104,16 @@ div.presentationDescription p {  /* Cible le texte du div "div.presentationDescr
 
 /* SECTION EXPERIECES PROFESSIONNELS */
 
-.enfant{
-    height: 100%;
-    width: 100%
+.bouton-card {
+    border-color: rgba(227,191,45,255) !important;
+}
+
+.divEntreprises {
+    text-align: center;
+}
+
+.divEntreprises1 {
+    align-items: center;
 }
 
 /* bouton téléchargement CV */

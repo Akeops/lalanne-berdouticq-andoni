@@ -23,12 +23,12 @@ require '../utile/formatage.php';
 <!-- Card -->
 <div class="container text-center" id="expProfessionnels">
     <?= formatageTitre("Mon expériences professionnel") ?>
-    <div class="m-5 container text-center">
-        <div class="row">
+    <div class="m-5 container text-center divEntreprises">
+        <div class="row divEntreprises1">
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card"">
                     <!-- Button trigger modal -->
-                    <button type="button" class="rounded-3" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/ecreatures.png" class="card-img-top img-fluid enfant" alt="ecreaturesLogo"></button>    
+                    <button type="button" class="rounded-3 border border-3 bouton-card" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/ecreatures.png" class="card-img-top img-fluid enfant" alt="ecreaturesLogo"></button>    
                 </div>
             </div>
 
@@ -36,14 +36,14 @@ require '../utile/formatage.php';
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card"">
                     <!-- Button trigger modal -->
-                    <button type="button" class="rounded-3" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/pic-digital.png" class="card-img-top img-fluid" alt="ecreaturesLogo"></button>    
+                    <button type="button" class="rounded-3 border border-3 bouton-card" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/pic-digital.png" class="card-img-top img-fluid" alt="ecreaturesLogo"></button>    
                 </div>
             </div>
 
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card">
                     <!-- Button trigger modal -->
-                    <button type="button" class="rounded-3" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/ecreatures.png" class="card-img-top img-fluid" alt="ecreaturesLogo"></button>    
+                    <button type="button" class="rounded-3 border border-3 bouton-card" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/ecreatures.png" class="card-img-top img-fluid" alt="ecreaturesLogo"></button>    
                 </div>
             </div>
         </div>
