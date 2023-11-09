@@ -24,9 +24,9 @@ require '../utile/formatage.php';
 <div class="container text-center" id="expProfessionnels">
     <?= formatageTitre("Mon expériences professionnel") ?>
     <div class="m-5 container text-center divEntreprises">
-        <div class="row divEntreprises1">
+        <div class="row align-baseline divEntreprises1">
             <div class="col-12 col-md-6 col-lg-4">
-                <div class="card"">
+                <div class="card rounded-3">
                     <!-- Button trigger modal -->
                     <button type="button" class="rounded-3 border border-3 bouton-card" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/ecreatures.png" class="card-img-top img-fluid enfant" alt="ecreaturesLogo"></button>    
                 </div>
@@ -34,14 +34,14 @@ require '../utile/formatage.php';
 
 
             <div class="col-12 col-md-6 col-lg-4">
-                <div class="card"">
+                <div class="card rounded-3">
                     <!-- Button trigger modal -->
                     <button type="button" class="rounded-3 border border-3 bouton-card" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/pic-digital.png" class="card-img-top img-fluid" alt="ecreaturesLogo"></button>    
                 </div>
             </div>
 
             <div class="col-12 col-md-6 col-lg-4">
-                <div class="card">
+                <div class="card rounded-3">
                     <!-- Button trigger modal -->
                     <button type="button" class="rounded-3 border border-3 bouton-card" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/ecreatures.png" class="card-img-top img-fluid" alt="ecreaturesLogo"></button>    
                 </div>

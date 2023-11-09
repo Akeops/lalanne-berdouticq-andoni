@@ -109,7 +109,7 @@ div.presentationDescription p {  /* Cible le texte du div "div.presentationDescr
 }
 
 .divEntreprises {
-    text-align: center;
+    text-align: center !important;
 }
 
 .divEntreprises1 {
