@@ -103,13 +103,13 @@ div.presentationDescription p {  /* Cible le texte du div "div.presentationDescr
 }
 
 /* SECTION EXPERIECES PROFESSIONNELS */
+div#expProfessionnels {
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;
+}
 
 .bouton-card {
     border-color: rgba(227,191,45,255) !important;
-}
-
-.divEntreprises {
-    text-align: center !important;
 }
 
 .divEntreprises1 {

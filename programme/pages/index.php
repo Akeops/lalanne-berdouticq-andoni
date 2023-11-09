@@ -23,8 +23,8 @@ require '../utile/formatage.php';
 <!-- Card -->
 <div class="container text-center" id="expProfessionnels">
     <?= formatageTitre("Mon expériences professionnel") ?>
-    <div class="m-5 container text-center divEntreprises">
-        <div class="row align-baseline divEntreprises1">
+    <div class="container text-center divEntreprises">
+        <div class="row divEntreprises1">
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card rounded-3">
                     <!-- Button trigger modal -->
