@@ -104,12 +104,12 @@ div.presentationDescription p {  /* Cible le texte du div "div.presentationDescr
 
 /* SECTION EXPERIECES PROFESSIONNELS */
 
-div.modal-body img {
-    display:flex;
-    justify-content:center;
-    align-items:center
+.enfant{
+    height: 100%;
+    width: 100%
 }
 
+/* bouton téléchargement CV */
 .monBouton {
     margin-top: 2rem;
     animation-name: bouton;

@@ -26,31 +26,24 @@ require '../utile/formatage.php';
     <div class="m-5 container text-center">
         <div class="row">
             <div class="col-12 col-md-6 col-lg-4">
-                <div class="card" style="width:236px;">
+                <div class="card"">
                     <!-- Button trigger modal -->
-                    <button type="button" class="rounded-3" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/ecreatures.png" class="card-img-top img-fluid" alt="ecreatures"></button>    
+                    <button type="button" class="rounded-3" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/ecreatures.png" class="card-img-top img-fluid enfant" alt="ecreaturesLogo"></button>    
                 </div>
             </div>
 
 
             <div class="col-12 col-md-6 col-lg-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="../source/images/card2.jpg" class="card-img-top img-fluid" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">ITwatchdog</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cours2">Détails</button>
-                    </div>
+                <div class="card"">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="rounded-3" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/pic-digital.png" class="card-img-top img-fluid" alt="ecreaturesLogo"></button>    
                 </div>
             </div>
+
             <div class="col-12 col-md-6 col-lg-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="../source/images/card3.jpg" class="card-img-top" height="165px" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Je ne sais pas encore</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cours3">Détails</button>
-                    </div>
+                <div class="card">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="rounded-3" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/ecreatures.png" class="card-img-top img-fluid" alt="ecreaturesLogo"></button>    
                 </div>
             </div>
         </div>
@@ -67,7 +60,7 @@ require '../utile/formatage.php';
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <img src="../source/images/ecreatures.png" style="width:18rem;" class="card-img-top img-fluid" alt="">
+                    <img src="../source/images/ecreatures.png" class="card-img-top img-fluid" alt="ecreaturesLogo">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fugit nemo libero ipsa blanditiis earum unde, neque eum modi obcaecati repellendus odio quos deserunt sunt quia nobis reprehenderit! Laboriosam, optio.</p>
                 </div>
                 <div class="modal-footer">
