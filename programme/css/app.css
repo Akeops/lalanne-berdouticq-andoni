@@ -98,24 +98,6 @@ div.presentationDescription p { /* Cible le texte */
         100%{left:0px;}
 }
 
-div.presentationDescription p {  /* Cible le texte du div "div.presentationDescription" */
-    align-items: center; /* Centre verticalement */
-}
-
-/* SECTION EXPERIECES PROFESSIONNELS */
-div#expProfessionnels {
-    justify-content: center; /* Centre horizontalement */
-    align-items: center;
-}
-
-.bouton-card {
-    border-color: rgba(227,191,45,255) !important;
-}
-
-.divEntreprises1 {
-    align-items: center;
-}
-
 /* bouton téléchargement CV */
 .monBouton {
     margin-top: 2rem;
@@ -136,6 +118,19 @@ div#expProfessionnels {
         transform : scale(1.1);
     }
 }
+
+/* SECTION EXPERIECES PROFESSIONNELS */
+
+/* Cible l'image des cards professionnels */
+.bouton-card {
+    border-color: rgba(227,191,45,255) !important;
+}
+
+.divEntreprises1 {
+    align-items: center;
+}
+
+
 
 /* JE LE GARDE POUR FAIRE L'ANIMATION DE MES CARDS PROJETS */
 

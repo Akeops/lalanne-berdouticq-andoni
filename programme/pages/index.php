@@ -7,9 +7,9 @@ require '../utile/formatage.php';
     <?= formatageTitre("Andoni Lalanne-Berdouticq") ?>
     <div class="row">
         <div class="col-12 col-xl-6  presentation">
-            <img src="../source/images/exemple.png" class="card-img-top img-fluid" style="width:236px;" alt="...">
+            <img src="../source/images/exemple.png" class="card-img-top img-fluid shadow-lg" style="width:236px;" alt="...">
         </div>
-        <div class="col-12 col-xl-6 presentationDescription">
+        <div class="col-12 col-xl-6 presentationDescription shadow-lg">
                 <p>Je suis Lalanne-Berdouticq Andoni, un passionné de développement informatique avec un BTS en SIO option SLAM. Ayant récemment repris mes études dans la lignée de mon BTS à Efrei, je me spécialise actuellement dans le développement Full-Stack en Javascript. Mon parcours m'a doté de solides compétences en PHP, Bootstrap, CSS, Docker et Javascript.</p>
         </div>
     </div>
@@ -28,7 +28,7 @@ require '../utile/formatage.php';
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card rounded-3">
                     <!-- Button trigger modal -->
-                    <button type="button" class="rounded-3 border border-3 bouton-card" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/ecreatures.png" class="card-img-top img-fluid enfant" alt="ecreaturesLogo"></button>    
+                    <button type="button" class="rounded-3 border border-3 bouton-card" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/ecreatures1.png" class="card-img-top shadow-lg" alt="ecreaturesLogo"></button>    
                 </div>
             </div>
 
@@ -36,14 +36,14 @@ require '../utile/formatage.php';
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card rounded-3">
                     <!-- Button trigger modal -->
-                    <button type="button" class="rounded-3 border border-3 bouton-card" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/pic-digital.png" class="card-img-top img-fluid" alt="ecreaturesLogo"></button>    
+                    <button type="button" class="rounded-3 border border-3 bouton-card" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/pic-digital.png" class="card-img-top shadow-lg" alt="ecreaturesLogo"></button>    
                 </div>
             </div>
 
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card rounded-3">
                     <!-- Button trigger modal -->
-                    <button type="button" class="rounded-3 border border-3 bouton-card" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/ecreatures.png" class="card-img-top img-fluid" alt="ecreaturesLogo"></button>    
+                    <button type="button" class="rounded-3 border border-3 bouton-card shadow-lg" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/ecreatures.png" class="card-img-top shadow-sm" alt="ecreaturesLogo"></button>    
                 </div>
             </div>
         </div>
