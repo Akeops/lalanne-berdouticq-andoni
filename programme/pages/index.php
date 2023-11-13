@@ -26,24 +26,24 @@ require '../utile/formatage.php';
     <div class="container text-center divEntreprises">
         <div class="row divEntreprises1">
             <div class="col-12 col-md-6 col-lg-4">
-                <div class="card rounded-3">
+                <div class="card cardPro">
                     <!-- Button trigger modal -->
-                    <button type="button" class="rounded-3 border border-3 bouton-card" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/ecreatures1.png" class="card-img-top shadow-lg" alt="ecreaturesLogo"></button>    
+                    <button type="button" class=" border border-2 bouton-card" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/ecreatures1.png" class="card-img-top shadow-lg cardPro" alt="ecreaturesLogo"></button>    
                 </div>
             </div>
 
 
             <div class="col-12 col-md-6 col-lg-4">
-                <div class="card rounded-3">
+                <div class="card cardPro">
                     <!-- Button trigger modal -->
-                    <button type="button" class="rounded-3 border border-3 bouton-card" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/pic-digital.png" class="card-img-top shadow-lg" alt="ecreaturesLogo"></button>    
+                    <button type="button" class="border border-2 bouton-card" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/pic-digital.png" class="card-img-top shadow-lg cardPro" alt="ecreaturesLogo"></button>    
                 </div>
             </div>
 
             <div class="col-12 col-md-6 col-lg-4">
-                <div class="card rounded-3">
+                <div class="card cardPro">
                     <!-- Button trigger modal -->
-                    <button type="button" class="rounded-3 border border-3 bouton-card shadow-lg" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/ecreatures.png" class="card-img-top shadow-sm" alt="ecreaturesLogo"></button>    
+                    <button type="button" class=" border border-2 bouton-card shadow-lg" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/ecreatures.png" class="card-img-top shadow-lg cardPro" alt="ecreaturesLogo"></button>    
                 </div>
             </div>
         </div>

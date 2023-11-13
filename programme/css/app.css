@@ -12,23 +12,24 @@ html {
 }
 
 body {
-    background-color: RGBA(221,207,200,0.7) !important; 
+    background-color: #fff8eb !important; 
 }
 
 
 /* MENU */
 
 .perso_bgBlack { /* Background-color de la navbar */
-    background-color: rgba(59,14,17,255) !important;
+    background-color: #461002 !important;
 }
 
 .nav-link { /* Couleur jaune des liens navbar */
-    color: rgba(227,191,45,255) !important;
+    color: #f97d07 !important;
     font-size: 20px;
+    margin-right: 1rem;
 }
 
 .nav-link:hover {
-    color: rgba(224,121,28,255) !important;
+    color: #dd5802 !important;
 }
 
 /* LES ELEMENTS DE GAUCHE DANS LE MENU */
@@ -81,8 +82,8 @@ div.presentationDescription {
     align-items: center; /* Aligne verticalement le texte au centre */
     height: 250px; /* Vous pouvez ajuster la hauteur selon vos besoins */
     border-radius: 15px; /* Vous pouvez ajuster la valeur du rayon selon vos préférences */
-    background-color: rgba(221,207,200,0.7)!important; /* Couleur de fond pour illustrer l'effet d'arrondi */
-    border: 1px solid #ccc; /* Pour visualiser la zone de l'élément parent */
+    background-color: #fff8eb!important; /* Couleur de fond pour illustrer l'effet d'arrondi */
+    border: 1px solid #ffd688; /* Pour visualiser la zone de l'élément parent */
     overflow: hidden; /* Ou overflow: auto; selon vos préférences */
 }
 
@@ -123,7 +124,16 @@ div.presentationDescription p { /* Cible le texte */
 
 /* Cible l'image des cards professionnels */
 .bouton-card {
-    border-color: rgba(227,191,45,255) !important;
+    border-color: #ffbc4a !important;
+    border-radius: 15px;
+}
+
+.cardPro {
+    border-radius: 15px;
+}
+
+.bouton-card:hover {
+    border-color: #ff9f1a !important;
 }
 
 .divEntreprises1 {
