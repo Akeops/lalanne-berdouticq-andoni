@@ -16,7 +16,7 @@ require '../utile/formatage.php';
 </div>
 
 <div class="text-center mt-3">
-    <a class="btn btn-success rounded-pill monBouton" href="../source/pdf/Lalanne_Berdouticq_CV.pdf" download="Lalanne-Berdouticq-Andoni">Télécharger mon CV</a>
+    <a class="btn rounded-pill monBouton" href="../source/pdf/Lalanne_Berdouticq_CV.pdf" download="Lalanne-Berdouticq-Andoni">Télécharger mon CV</a>
 </div>
 
 <!-- Mes expériences professionnel -->
