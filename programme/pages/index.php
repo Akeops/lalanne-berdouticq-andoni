@@ -27,20 +27,20 @@ require '../utile/formatage.php';
         <div class="row divEntreprises1">
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card cardPro">
-                    <button type="button" class=" border border-2 bouton-card" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/ecreatures2.png" class="card-img-top shadow-lg bouton-card" alt="ecreaturesLogo"></button>    
+                    <button type="button" class=" border border-2 bouton-card" data-bs-toggle="modal" data-bs-target="#ecreatures"><img src="../source/images/ecreatures2.png" class="card-img-top shadow-lg bouton-card" alt="ecreaturesLogo"></button>    
                 </div>
             </div>
 
 
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card cardPro">
-                    <button type="button" class="border border-2 bouton-card" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/pic-digital.png" class="card-img-top shadow-lg bouton-card" alt="ecreaturesLogo"></button>    
+                    <button type="button" class="border border-2 bouton-card" data-bs-toggle="modal" data-bs-target="#picDigital"><img src="../source/images/pic-digital.png" class="card-img-top shadow-lg bouton-card" alt="ecreaturesLogo"></button>    
                 </div>
             </div>
 
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card cardPro">
-                    <button type="button" class=" border border-2 bouton-card shadow-lg" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/bluelogic.png" class="card-img-top shadow-lg bouton-card" alt="ecreaturesLogo"></button>    
+                    <button type="button" class=" border border-2 bouton-card shadow-lg" data-bs-toggle="modal" data-bs-target="#blueLogic"><img src="../source/images/bluelogic.png" class="card-img-top shadow-lg bouton-card" alt="ecreaturesLogo"></button>    
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@ require '../utile/formatage.php';
     
 
     <!-- Modal (Fenêtre qui apparaît quand on clique sur le bouton de la card) -->
-    <div class="modal fade" id="entreprise1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="ecreatures" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -68,7 +68,7 @@ require '../utile/formatage.php';
     </div>
 
     <!-- Modal (Fenêtre qui apparaît quand on clique sur le bouton de la card) -->
-    <div class="modal fade" id="cours2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="picDigital" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -76,7 +76,25 @@ require '../utile/formatage.php';
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <img src="../source/images/card2.jpg" class="card-img-top" alt="...">
+                    <img src="../source/images/pic-digital.png" class="card-img-top" alt="...">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fugit nemo libero ipsa blanditiis earum unde, neque eum modi obcaecati repellendus odio quos deserunt sunt quia nobis reprehenderit! Laboriosam, optio.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="blueLogic" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 fw-semibold" id="exampleModalLabel">Ecreatures</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../source/images/bluelogic.png" class="card-img-top img-fluid" alt="ecreaturesLogo">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fugit nemo libero ipsa blanditiis earum unde, neque eum modi obcaecati repellendus odio quos deserunt sunt quia nobis reprehenderit! Laboriosam, optio.</p>
                 </div>
                 <div class="modal-footer">
