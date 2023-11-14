@@ -40,7 +40,7 @@ require '../utile/formatage.php';
 
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card cardPro">
-                    <button type="button" class=" border border-2 bouton-card shadow-lg" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/ecreatures.png" class="card-img-top shadow-lg bouton-card" alt="ecreaturesLogo"></button>    
+                    <button type="button" class=" border border-2 bouton-card shadow-lg" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/bluelogic.png" class="card-img-top shadow-lg bouton-card" alt="ecreaturesLogo"></button>    
                 </div>
             </div>
         </div>
@@ -57,7 +57,7 @@ require '../utile/formatage.php';
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <img src="../source/images/ecreatures.png" class="card-img-top img-fluid" alt="ecreaturesLogo">
+                    <img src="../source/images/ecreatures2.png" class="card-img-top img-fluid" alt="ecreaturesLogo">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fugit nemo libero ipsa blanditiis earum unde, neque eum modi obcaecati repellendus odio quos deserunt sunt quia nobis reprehenderit! Laboriosam, optio.</p>
                 </div>
                 <div class="modal-footer">
