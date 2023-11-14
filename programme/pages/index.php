@@ -27,23 +27,20 @@ require '../utile/formatage.php';
         <div class="row divEntreprises1">
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card cardPro">
-                    <!-- Button trigger modal -->
-                    <button type="button" class=" border border-2 bouton-card" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/ecreatures1.png" class="card-img-top shadow-lg cardPro" alt="ecreaturesLogo"></button>    
+                    <button type="button" class=" border border-2 bouton-card" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/ecreatures1.png" class="card-img-top shadow-lg bouton-card" alt="ecreaturesLogo"></button>    
                 </div>
             </div>
 
 
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card cardPro">
-                    <!-- Button trigger modal -->
-                    <button type="button" class="border border-2 bouton-card" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/pic-digital.png" class="card-img-top shadow-lg cardPro" alt="ecreaturesLogo"></button>    
+                    <button type="button" class="border border-2 bouton-card" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/pic-digital.png" class="card-img-top shadow-lg bouton-card" alt="ecreaturesLogo"></button>    
                 </div>
             </div>
 
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card cardPro">
-                    <!-- Button trigger modal -->
-                    <button type="button" class=" border border-2 bouton-card shadow-lg" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/ecreatures.png" class="card-img-top shadow-lg cardPro" alt="ecreaturesLogo"></button>    
+                    <button type="button" class=" border border-2 bouton-card shadow-lg" data-bs-toggle="modal" data-bs-target="#entreprise1"><img src="../source/images/ecreatures.png" class="card-img-top shadow-lg bouton-card" alt="ecreaturesLogo"></button>    
                 </div>
             </div>
         </div>

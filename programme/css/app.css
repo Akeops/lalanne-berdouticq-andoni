@@ -144,7 +144,9 @@ div.presentationDescription p { /* Cible le texte */
 }
 
 .cardPro {
+    border:none !important;
     border-radius: 15px;
+
 }
 
 .bouton-card:hover {
