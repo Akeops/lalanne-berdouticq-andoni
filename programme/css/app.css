@@ -139,12 +139,13 @@ div.presentationDescription p { /* Cible le texte */
 
 /* Cible l'image des cards professionnels */
 .bouton-card {
-    border-color: #ffbc4a !important;
+    
     border-radius: 15px;
+    border:none !important;
 }
 
 .cardPro {
-    border:none !important;
+    border-color: #ffbc4a !important;
     border-radius: 15px;
 
 }
