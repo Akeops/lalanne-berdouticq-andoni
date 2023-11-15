@@ -1,23 +1,58 @@
-<?php ob_start(); 
+<?php ob_start();
 require '../utile/formatage.php';
 ?>
 
+
 <!-- Présentation de ma personne -->
 <div class="container text-center" id="accueil">
-    <?= formatageTitre("Andoni Lalanne-Berdouticq") ?>
-    <div class="row">
-        <div class="col-12 col-xl-6  presentation">
-            <img src="../source/images/exemple.png" class="card-img-top img-fluid shadow-lg" style="width:236px;" alt="...">
+    <?= formatageTitre("Présentation") ?>
+    <div class="row divPresentation">
+        <div class="col-12 col-xl-7  presentation">
+            <img src="../source/images/exemple.png" class="card-img-top img-fluid shadow-lg" alt="...">
         </div>
-        <div class="col-12 col-xl-6 presentationDescription shadow-lg">
+        <div class="col-12 col-xl-5 presentationDescription shadow-lg">
                 <p>Je suis Lalanne-Berdouticq Andoni, un passionné de développement informatique avec un BTS en SIO option SLAM. Ayant récemment repris mes études dans la lignée de mon BTS à Efrei, je me spécialise actuellement dans le développement Full-Stack en Javascript. Mon parcours m'a doté de solides compétences en PHP, Bootstrap, CSS, Docker et Javascript.</p>
         </div>
     </div>
 </div>
 
+
 <div class="text-center mt-3">
     <a class="btn rounded-pill monBouton" href="../source/pdf/Lalanne_Berdouticq_CV.pdf" download="Lalanne-Berdouticq-Andoni">Télécharger mon CV</a>
 </div>
+ 
+<!-- Parcours scolaire -->
+<div class="container text-center" id="parcoursScolaire">
+    <?= formatageTitre("Parcours scolaire") ?>
+<ul class="external-style-ul">
+    <li class="external-style-li shadow-lg" style="--accent-color:#41516C">
+        <div class="date">2002</div>
+        <div class="title">Title 1</div>
+        <div class="descr">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas itaque hic quibusdam fugiat est numquam harum, accusamus suscipit consequatur laboriosam!</div>
+    </li>
+    <li class="external-style-li shadow-lg" style="--accent-color:#FBCA3E">
+        <div class="date">2007</div>
+        <div class="title">Title 2</div>
+        <div class="descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos adipisci nobis nostrum vero nihil veniam.</div>
+    </li>
+    <li class="external-style-li shadow-lg" style="--accent-color:#E24A68">
+        <div class="date">2012</div>
+        <div class="title">Title 3</div>
+        <div class="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minima consequuntur soluta placeat iure totam commodi repellendus ea delectus, libero fugit quod reprehenderit, sequi quo, et dolorum saepe nulla hic.</div>
+    </li>
+    <li class="external-style-li shadow-lg" style="--accent-color:#1B5F8C">
+        <div class="date">2017</div>
+        <div class="title">Title 4</div>
+        <div class="descr">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, cumque.</div>
+    </li>
+    <li class="external-style-li shadow-lg" style="--accent-color:#4CADAD">
+        <div class="date">2022</div>
+        <div class="title">Title 5</div>
+        <div class="descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, non.</div>
+    </li>
+</ul>
+</div>
+
 
 <!-- Mes expériences professionnel -->
 <!-- Card -->
@@ -32,11 +67,14 @@ require '../utile/formatage.php';
             </div>
 
 
+
+
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card cardPro">
                     <button type="button" class="border border-2 bouton-card" data-bs-toggle="modal" data-bs-target="#picDigital"><img src="../source/images/pic-digital.png" class="card-img-top shadow-lg bouton-card" alt="ecreaturesLogo"></button>    
                 </div>
             </div>
+
 
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card cardPro">
@@ -46,7 +84,8 @@ require '../utile/formatage.php';
         </div>
     </div>
 </div>
-    
+   
+
 
     <!-- Modal (Fenêtre qui apparaît quand on clique sur le bouton de la card) -->
     <div class="modal fade" id="ecreatures" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -67,6 +106,7 @@ require '../utile/formatage.php';
         </div>
     </div>
 
+
     <!-- Modal (Fenêtre qui apparaît quand on clique sur le bouton de la card) -->
     <div class="modal fade" id="picDigital" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -86,6 +126,7 @@ require '../utile/formatage.php';
         </div>
     </div>
 
+
     <div class="modal fade" id="blueLogic" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -103,6 +144,7 @@ require '../utile/formatage.php';
             </div>
         </div>
     </div>
+
 
 <!-- Progress bar -->
 <div class="container text-center" id="competences">
@@ -134,6 +176,8 @@ require '../utile/formatage.php';
         </div>
     </div>
 </div>
+
+
 
 
 <!-- Card -->
@@ -175,7 +219,8 @@ require '../utile/formatage.php';
         </div>
     </div>
 </div>
-    
+   
+
 
     <!-- Modal (Fenêtre qui apparaît quand on clique sur le bouton de la card) -->
     <div class="modal fade" id="cours1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -196,6 +241,7 @@ require '../utile/formatage.php';
         </div>
     </div>
 
+
     <!-- Modal (Fenêtre qui apparaît quand on clique sur le bouton de la card) -->
     <div class="modal fade" id="cours2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -214,6 +260,7 @@ require '../utile/formatage.php';
             </div>
         </div>
     </div>
+
 
     <!-- Modal (Fenêtre qui apparaît quand on clique sur le bouton de la card) -->
     <div class="modal fade" id="cours3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -234,10 +281,13 @@ require '../utile/formatage.php';
         </div>
     </div>
 
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Intégration du jquery pour que le main.js fonctionne -->
     <script src="../js/main.js"></script>
+
 
 <?php
     $content = ob_get_clean();
     require "commons/template.php";
 ?>
+
