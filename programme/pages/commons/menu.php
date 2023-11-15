@@ -12,6 +12,9 @@
           <a class="nav-link active" aria-current="page" href="index.php#accueil">Accueil</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="index.php#parcoursScolaire">Parcours scolaire</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="index.php#expProfessionnels">Expériences professionnels</a>
         </li>
         <li class="nav-item">

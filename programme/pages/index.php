@@ -7,10 +7,10 @@ require '../utile/formatage.php';
 <div class="container text-center" id="accueil">
     <?= formatageTitre("Présentation") ?>
     <div class="row divPresentation">
-        <div class="col-12 col-xl-7  presentation">
+        <div class="col-12 col-xl-6  presentation">
             <img src="../source/images/exemple.png" class="card-img-top img-fluid shadow-lg" alt="...">
         </div>
-        <div class="col-12 col-xl-5 presentationDescription shadow-lg">
+        <div class="col-12 col-xl-6 presentationDescription shadow-lg">
                 <p>Je suis Lalanne-Berdouticq Andoni, un passionné de développement informatique avec un BTS en SIO option SLAM. Ayant récemment repris mes études dans la lignée de mon BTS à Efrei, je me spécialise actuellement dans le développement Full-Stack en Javascript. Mon parcours m'a doté de solides compétences en PHP, Bootstrap, CSS, Docker et Javascript.</p>
         </div>
     </div>
@@ -277,10 +277,8 @@ require '../utile/formatage.php';
     </div>
 </div>
 
-
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Intégration du jquery pour que le main.js fonctionne -->
 <script src="../js/main.js"></script>
-
 
 <?php
     $content = ob_get_clean();
