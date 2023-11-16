@@ -248,7 +248,7 @@ div p {
 
 /* Ajout perso */
 
-
+/* Cible la partie titre + desc des card */
 .external-style-li {
   border: 1px solid #ffbc4a !important;
   border-top: 0 !important;
@@ -345,48 +345,48 @@ right: 0;
 
 /* circle */
 .external-style-ul .external-style-li .date::after {
-content: "";
-position: absolute;
-width: 2rem;
-aspect-ratio: 1;
-background: var(--bgColor);
-border: 0.3rem solid var(--accent-color);
-border-radius: 50%;
-top: 50%;
+  content: "";
+  position: absolute;
+  width: 2rem;
+  aspect-ratio: 1;
+  background: var(--bgColor);
+  border: 0.3rem solid var(--accent-color);
+  border-radius: 50%;
+  top: 50%;
 
 
 transform: translate(50%, -50%);
 right: calc(100% + var(--col-gap) + var(--line-w) / 2);
 }
 
-
 /* title descr */
 .external-style-ul .external-style-li .title,
 .external-style-ul .external-style-li .descr {
-background: var(--bgColor);
-position: relative;
-padding-inline: 1.5rem;
+  background: var(--bgColor);
+  position: relative;
+  padding-inline: 1.5rem;
 }
+
+
 .external-style-ul .external-style-li .title {
-overflow: hidden;
-padding-block-start: 1.5rem;
-padding-block-end: 1rem;
-font-weight: 500;
+  overflow: hidden;
+  padding-block-start: 1.5rem;
+  padding-block-end: 1rem;
+  font-weight: 700 !important;
 }
 .external-style-ul .external-style-li .descr {
-padding-block-end: 1.5rem;
-font-weight: 300;
+  padding-block-end: 1.5rem;
 }
 
 
 .external-style-ul .external-style-li .title::before {
-bottom: calc(100% + 0.125rem);
+  bottom: calc(100% + 0.125rem);
 }
 
 
 .external-style-ul .external-style-li .descr::before {
-z-index: -1;
-bottom: 0.25rem;
+  z-index: -1;
+  bottom: 0.25rem;
 }
 
 
