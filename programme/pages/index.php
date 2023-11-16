@@ -26,28 +26,29 @@ require '../utile/formatage.php';
     <?= formatageTitre("Parcours scolaire") ?>
 <ul class="external-style-ul">
     <li class="external-style-li shadow-lg" style="--accent-color:#41516C">
-        <div class="date">2002</div>
-        <div class="title fs-4">Title 1</div>
-        <div class="descr fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas itaque hic quibusdam fugiat est numquam harum, accusamus suscipit consequatur laboriosam!</div>
+        <div class="date">Objectif</div>
+        <div class="title fs-5">Troisième année de BACHELOR en Alternance</div>
+        <div class="descr fs-5">Dernière année de mon BACHELOR, <br><b>Objectif: Être compétent dans mon domaine, pouvoir développer une application web de A à Z, de sa conception à son déploiement.</b></div>
     </li>
     <li class="external-style-li shadow-lg" style="--accent-color:#FBCA3E">
         <div class="date">2023-2024</div>
-        <div class="title fs-4">Title 2</div>
-        <div class="descr fs-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos adipisci nobis nostrum vero nihil veniam.</div>
+        <div class="title fs-5">BACHELOR Développement web & application</div>
+        <div class="descr fs-5">École Efrei à Bordeaux, reprise d'étude en deuxième année.<br><b>Objectif:</b> Devenir développeur Full-Stack en Javascript.<br>
+    <button class="boutonEfrei"><a href="https://www.efrei.fr">Site web de l'Efrei</a></button></div>
     </li>
     <li class="external-style-li shadow-lg" style="--accent-color:#E24A68">
         <div class="date">2017-2020</div>
-        <div class="title fs-4">BTS SIO option Solutions logicielles et applications métiers (SLAM)</div>
+        <div class="title fs-5">BTS SIO option Solutions logicielles et applications métiers (SLAM)</div>
         <div class="descr fs-5">Lycée Louis de Foix à Bayonne, mention Assez Bien.</div>
     </li>
     <li class="external-style-li shadow-lg" style="--accent-color:#1B5F8C">
         <div class="date">2014-2017</div>
-        <div class="title fs-4">BAC Professionnel SEN option Télécom & Réseaux</div>
+        <div class="title fs-5">BAC Professionnel SEN option Télécom & Réseaux</div>
         <div class="descr fs-5">Lycée Ramiro Arrué à Saint-Jean-de-Luz, mention Assez Bien.</div>
     </li>
     <li class="external-style-li shadow-lg" style="--accent-color:#4CADAD">
         <div class="date">2014</div>
-        <div class="title fs-4">Brevet des collèges</div>
+        <div class="title fs-5">Brevet des collèges</div>
         <div class="descr fs-5">Collège Piarres Larzabal à Ciboure, mention Assez Bien.</div>
     </li>
 </ul>

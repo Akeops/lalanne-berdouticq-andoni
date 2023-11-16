@@ -247,6 +247,25 @@ div p {
 
 /* Ajout perso */
 
+.boutonEfrei {
+  margin-top: 1rem;
+  border-radius: 20px;
+  background-color: #ff9f1a;
+  border: #461002;
+  width: 200px;
+  height: 2.5rem;
+}
+
+.boutonEfrei a {
+  text-decoration: none;
+  color: #7a250d;
+}
+
+.boutonEfrei:hover {
+  text-decoration: none;
+  background-color: #ffbc4a;
+}
+
 /* Cible la partie titre + desc des card */
 .external-style-li {
   border: 1px solid #ffbc4a !important;
