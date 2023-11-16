@@ -73,7 +73,6 @@ body {
 div.presentation {
   justify-content: center; /* Centre horizontalement */
   align-items: center; /* Centre verticalement */
-/* Vous pouvez ajuster la hauteur selon vos besoins */
 }
 
 
@@ -252,6 +251,7 @@ div p {
 .external-style-li {
   border: 1px solid #ffbc4a !important;
   border-top: 0 !important;
+  border-radius: 15px;
 }
 
 

@@ -31,24 +31,24 @@ require '../utile/formatage.php';
         <div class="descr fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas itaque hic quibusdam fugiat est numquam harum, accusamus suscipit consequatur laboriosam!</div>
     </li>
     <li class="external-style-li shadow-lg" style="--accent-color:#FBCA3E">
-        <div class="date">2007</div>
+        <div class="date">2023-2024</div>
         <div class="title fs-4">Title 2</div>
         <div class="descr fs-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos adipisci nobis nostrum vero nihil veniam.</div>
     </li>
     <li class="external-style-li shadow-lg" style="--accent-color:#E24A68">
-        <div class="date">2012</div>
-        <div class="title fs-4">Title 3</div>
-        <div class="descr fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minima consequuntur soluta placeat iure totam commodi repellendus ea delectus, libero fugit quod reprehenderit, sequi quo, et dolorum saepe nulla hic.</div>
+        <div class="date">2017-2020</div>
+        <div class="title fs-4">BTS SIO option Solutions logicielles et applications métiers (SLAM)</div>
+        <div class="descr fs-5">Lycée Louis de Foix à Bayonne, mention Assez Bien.</div>
     </li>
     <li class="external-style-li shadow-lg" style="--accent-color:#1B5F8C">
-        <div class="date">2017</div>
-        <div class="title fs-4">Title 4</div>
-        <div class="descr fs-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, cumque.</div>
+        <div class="date">2014-2017</div>
+        <div class="title fs-4">BAC Professionnel SEN option Télécom & Réseaux</div>
+        <div class="descr fs-5">Lycée Ramiro Arrué à Saint-Jean-de-Luz, mention Assez Bien.</div>
     </li>
     <li class="external-style-li shadow-lg" style="--accent-color:#4CADAD">
         <div class="date">2014</div>
         <div class="title fs-4">Brevet des collèges</div>
-        <div class="descr fs-5">Collège Piarres Larzabal à Ciboure, mention assez bien.</div>
+        <div class="descr fs-5">Collège Piarres Larzabal à Ciboure, mention Assez Bien.</div>
     </li>
 </ul>
 </div>
