@@ -61,7 +61,7 @@ require '../utile/formatage.php';
     <?= formatageTitre("Mon expériences professionnel") ?>
     <div class="container text-center divEntreprises">
         <div class="row divEntreprises1">
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4 hoverEffect">
                 <div class="card cardPro">
                     <button type="button" class=" border border-2 bouton-card" data-bs-toggle="modal" data-bs-target="#ecreatures"><img src="../source/images/ecreatures2.png" class="card-img-top shadow-lg bouton-card" alt="ecreaturesLogo"></button>    
                 </div>
