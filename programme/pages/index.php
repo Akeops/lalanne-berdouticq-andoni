@@ -1,8 +1,6 @@
 <?php ob_start();
 require '../utile/formatage.php';
 ?>
-
-
 <!-- Présentation de ma personne -->
 <div class="container text-center" id="accueil">
     <?= formatageTitre("Présentation") ?>
@@ -34,7 +32,7 @@ require '../utile/formatage.php';
         <div class="date">2023-2024</div>
         <div class="title fs-5">BACHELOR Développement web & application</div>
         <div class="descr fs-5">École Efrei à Bordeaux, reprise d'étude en deuxième année.<br><b>Objectif:</b> Devenir développeur Full-Stack en Javascript.<br>
-    <button class="boutonEfrei"><a href="https://www.efrei.fr">Site web de l'Efrei</a></button></div>
+    <button class="boutonEfrei"><a href="https://www.efrei.fr" target="_blank">Site web de l'Efrei</a></button></div>
     </li>
     <li class="external-style-li shadow-lg" style="--accent-color:#E24A68">
         <div class="date">2017-2020</div>
@@ -54,7 +52,6 @@ require '../utile/formatage.php';
 </ul>
 </div>
 
-
 <!-- Mes expériences professionnel -->
 <!-- Card -->
 <div class="container text-center" id="expProfessionnels">
@@ -66,17 +63,11 @@ require '../utile/formatage.php';
                     <button type="button" class=" border border-2 bouton-card" data-bs-toggle="modal" data-bs-target="#ecreatures"><img src="../source/images/ecreatures2.png" class="card-img-top shadow-lg bouton-card" alt="ecreaturesLogo"></button>    
                 </div>
             </div>
-
-
-
-
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card cardPro">
                     <button type="button" class="border border-2 bouton-card" data-bs-toggle="modal" data-bs-target="#picDigital"><img src="../source/images/pic-digital.png" class="card-img-top shadow-lg bouton-card" alt="ecreaturesLogo"></button>    
                 </div>
             </div>
-
-
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card cardPro">
                     <button type="button" class=" border border-2 bouton-card shadow-lg" data-bs-toggle="modal" data-bs-target="#blueLogic"><img src="../source/images/bluelogic.png" class="card-img-top shadow-lg bouton-card" alt="ecreaturesLogo"></button>    
@@ -86,8 +77,6 @@ require '../utile/formatage.php';
     </div>
 </div>
    
-
-
     <!-- Modal (Fenêtre qui apparaît quand on clique sur le bouton de la card) -->
     <div class="modal fade" id="ecreatures" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -116,7 +105,7 @@ require '../utile/formatage.php';
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fugit nemo libero ipsa blanditiis earum unde, neque eum modi obcaecati repellendus odio quos deserunt sunt quia nobis reprehenderit! Laboriosam, optio.</p>
+                    <p>Pendant mon parcours professionnel, j'ai principalement travaillé sur le développement frontend, en mettant en œuvre des solutions basées sur WordPress pour plusieurs sites. Mon expertise s'est concentrée sur la création d'interfaces utilisateur attrayantes et fonctionnelles, en veillant à ce que les utilisateurs aient une expérience optimale lors de la navigation sur les sites. De plus, j'ai acquis une expérience dans le développement backend en utilisant PHP, particulièrement dans des situations où des fonctionnalités spécifiques nécessitaient une interaction avec la base de données. Cette polyvalence m'a permis de jouer un rôle complet dans le processus de développement, en assurant la cohérence entre le frontend et le backend pour offrir des sites web robustes et performants.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
@@ -134,7 +123,7 @@ require '../utile/formatage.php';
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fugit nemo libero ipsa blanditiis earum unde, neque eum modi obcaecati repellendus odio quos deserunt sunt quia nobis reprehenderit! Laboriosam, optio.</p>
+                    <p>Pendant mon engagement dans la conception d'un site, j'ai apporté une contribution significative en utilisant PrestaShop pour la partie frontend et en développant le backend avec Symfony. Cette approche m'a permis de participer activement à la création complète du site, en optimisant à la fois l'expérience utilisateur et les fonctionnalités côté serveur.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
