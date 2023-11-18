@@ -3,7 +3,7 @@ require '../utile/formatage.php';
 ?>
 <!-- Présentation de ma personne -->
 <div class="container text-center" id="accueil">
-    <?= formatageTitre("Présentation") ?>
+    <?= formatageTitre("À propos 🗨️") ?>
     <div class="row divPresentation">
         <div class="col-12 col-xl-6  presentation">
             <img src="../source/images/exemple.png" class="card-img-top img-fluid shadow-lg" alt="...">
@@ -21,7 +21,7 @@ require '../utile/formatage.php';
  
 <!-- Parcours scolaire -->
 <div class="container text-center" id="parcoursScolaire">
-    <?= formatageTitre("Parcours scolaire") ?>
+    <?= formatageTitre("Mon parcours scolaire 🎓") ?>
 <ul class="external-style-ul">
     <li class="external-style-li shadow-lg" style="--accent-color:#41516C">
         <div class="date">Objectif</div>
@@ -55,7 +55,7 @@ require '../utile/formatage.php';
 <!-- Mes expériences professionnel -->
 <!-- Card -->
 <div class="container text-center" id="expProfessionnels">
-    <?= formatageTitre("Mon expériences professionnel") ?>
+    <?= formatageTitre("Mon parcours professionnel 🤵") ?>
     <div class="container text-center divEntreprises">
         <div class="row divEntreprises1">
             <div class="col-12 col-md-6 col-lg-4 hoverEffect">
@@ -94,8 +94,6 @@ require '../utile/formatage.php';
             </div>
         </div>
     </div>
-
-
     <!-- Modal (Fenêtre qui apparaît quand on clique sur le bouton de la card) -->
     <div class="modal fade" id="picDigital" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -113,8 +111,6 @@ require '../utile/formatage.php';
             </div>
         </div>
     </div>
-
-
     <div class="modal fade" id="blueLogic" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -135,41 +131,50 @@ require '../utile/formatage.php';
 
 <!-- Progress bar -->
 <div class="container text-center" id="competences">
-    <?= formatageTitre("Mes compétences") ?>
+    <?= formatageTitre("Mes compétences développement 👨‍💻") ?>
     <div class="row">
-        <div class="col-12 col-md-6 perso_colorYellow">
-            HTML/CSS
-            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 50%">50%</div>
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
         </div>
-        <div class="col-12 col-md-6 perso_colorYellow">
-            PHP / POO
-            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 25%">25%</div>
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
         </div>
-        <div class="col-12 col-md-6 perso_colorYellow">
-            Javascript / Node.js
-            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 5%">5%</div>
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
         </div>
-        <div class="col-12 col-md-6 perso_colorYellow">
-            SQL / PDO
-            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 50%">50%</div>
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
         </div>
+
+
     </div>
 </div>
 
 
-
-
 <!-- Card -->
 <div class="container text-center" id="mesProjets">
-    <?= formatageTitre("Mes projets") ?>
+    <?= formatageTitre("Mes projets 🚧") ?>
+    <b class="col-12 col-lg-4 neon1">
+        <div class="feur4">
+            <p>Tous mes projets réalisés 📁</p>
+        </div>
+    </b>
     <div class="m-5 container text-center">
         <div class="row">
             <div class="col-12 col-md-6 col-lg-4">
