@@ -163,11 +163,12 @@ div.presentationDescription p {
 .cardPro {
   border-color: #ffbc4a !important;
   border-radius: 15px;
+  transition: transform 0.5s ease;
 }
 
 .cardPro:hover {
   transform:scale(0.97) !important;
-  transform: rotate(1.5deg) !important;
+  transform: rotate(2deg) !important;
   border: 3px solid #7a250d !important;
 }
 
