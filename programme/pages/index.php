@@ -97,8 +97,7 @@ require '../utile/formatage.php';
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <img src="../source/images/ecreatures2.png" class="card-img-top img-fluid" alt="ecreaturesLogo">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fugit nemo libero ipsa blanditiis earum unde, neque eum modi obcaecati repellendus odio quos deserunt sunt quia nobis reprehenderit! Laboriosam, optio.</p>
+                    <p>Pendant mon premier stage de BTS, j'ai été chargé de la refonte complète d'un site web pour un client. En utilisant Wordpress comme base, j'ai reconstruit entièrement le site en respectant la maquette fournie par le client. Pour ajouter une touche personnelle au site et répondre aux attentes du client, j'ai également personnalisé certaines sections en utilisant du CSS.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
@@ -113,11 +112,10 @@ require '../utile/formatage.php';
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="cours2">ITwatchdog</h1>
+                    <h1 class="modal-title fs-5 fw-semibold" id="cours2">Pic Digital</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <img src="../source/images/pic-digital.png" class="card-img-top" alt="...">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fugit nemo libero ipsa blanditiis earum unde, neque eum modi obcaecati repellendus odio quos deserunt sunt quia nobis reprehenderit! Laboriosam, optio.</p>
                 </div>
                 <div class="modal-footer">
@@ -132,11 +130,10 @@ require '../utile/formatage.php';
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5 fw-semibold" id="exampleModalLabel">Ecreatures</h1>
+                    <h1 class="modal-title fs-5 fw-semibold" id="exampleModalLabel">Bluelogic</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <img src="../source/images/bluelogic.png" class="card-img-top img-fluid" alt="ecreaturesLogo">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fugit nemo libero ipsa blanditiis earum unde, neque eum modi obcaecati repellendus odio quos deserunt sunt quia nobis reprehenderit! Laboriosam, optio.</p>
                 </div>
                 <div class="modal-footer">
