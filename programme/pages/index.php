@@ -26,12 +26,12 @@ require '../utile/formatage.php';
     <li class="external-style-li shadow-lg" style="--accent-color:#41516C">
         <div class="date">Objectif</div>
         <div class="title fs-5">Troisième année de BACHELOR en Alternance</div>
-        <div class="descr fs-5">Dernière année de mon BACHELOR, <br><b>Objectif:</b> Être compétent dans mon domaine, pouvoir développer une application web de A à Z, de sa conception à son déploiement.</div>
+        <div class="descr fs-5">Dernière année de mon BACHELOR, <br><b>Objectif:</b><br> Être compétent dans mon domaine, <br> pouvoir développer une application web de A à Z, <br> de sa conception à son déploiement.</div>
     </li>
     <li class="external-style-li shadow-lg" style="--accent-color:#FBCA3E">
         <div class="date">2023-2024</div>
         <div class="title fs-5">BACHELOR Développement web & application</div>
-        <div class="descr fs-5">École Efrei à Bordeaux, reprise d'étude en deuxième année.<br><b>Objectif:</b> Devenir développeur Full-Stack en Javascript.<br>
+        <div class="descr fs-5">École Efrei à Bordeaux, reprise d'étude en deuxième année.<br><b>Objectif de la formation:</b> <br> Devenir développeur Full-Stack en Javascript.<br>
     <button class="boutonEfrei"><a href="https://www.efrei.fr" target="_blank">Site web de l'Efrei</a></button></div>
     </li>
     <li class="external-style-li shadow-lg" style="--accent-color:#E24A68">
