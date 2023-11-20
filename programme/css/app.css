@@ -14,6 +14,7 @@ body {
   background-color: #fff8eb !important;
 }
 
+/* Responsive du body */
 @media screen and (max-width: 667px) {
   body {
       overflow-x: hidden !important;
@@ -28,27 +29,29 @@ body {
   margin-left: 0;
 }
 
-/* MENU */
+/*----- MENU ------*/
 .titleColor {  /* Propriété des titres de section */
   color: #461002 !important;
   margin-bottom: 5rem;
   margin-top: 4rem;
 }
 
-
-
 .perso_bgBlack { /* Background-color de la navbar */
   background-color: #461002 !important;
+  height: 3.5rem;
 }
 
 .nav-link { /* Couleur jaune des liens navbar */
   color: #ff9f1a !important;
   font-size: 20px;
   margin-right: 1rem;
+  white-space: nowrap; /* Empêche le texte de revenir à la ligne */
+  text-overflow: ellipsis; /* Affiche des points de suspension (...) pour indiquer qu'il y a du texte masqué */
 }
 
-.nav-link:hover {
-  color: #ffbc4a !important;
+
+.navbar-toggler {
+  border: 2px solid #ff9f1a !important;
 }
 
 /* LES ELEMENTS DE GAUCHE DANS LE MENU */
@@ -62,6 +65,16 @@ body {
       100%{left:0px;}
 }
 
+/* Responsive du menu */
+@media (max-width: 1250px) {
+  .nav-link {
+      color: #ff9f1a !important;
+      font-size: 20px;
+      margin-right: 0.5rem;
+      white-space: nowrap;
+  }
+}
+
 /* LES ELEMENTS DE DROITE DANS LE MENU */
 .navbar-nav {
   animation-name: lien;
@@ -73,13 +86,13 @@ body {
       100%{left:0px;}
 }
 
-/* PRESENTATION */
+/*------ PRESENTATION ------*/
+
 /* Cible la div de l'image */  
 div.presentation {
   justify-content: center; /* Centre horizontalement */
   align-items: center; /* Centre verticalement */
 }
-
 
 /* Cible l'image */
 div.presentation img {
@@ -155,9 +168,20 @@ div.presentationDescription p {
   }
 }
 
+/* Responsive de la section présentation */
+@media (max-width: 1250px) {
+  div.presentationDescription {
+    display: flex;
+    margin-top: 1rem;
+    align-items: center; /* Aligne verticalement le texte au centre */
+    border-radius: 15px; /* Vous pouvez ajuster la valeur du rayon selon vos préférences */
+    background-color: #fff8eb!important; /* Couleur de fond pour illustrer l'effet d'arrondi */
+    border: 1px solid #ffd688; /* Pour visualiser la zone de l'élément parent */
+    overflow: hidden; /* Ou overflow: auto; selon vos préférences */
+  }
+}
 
-/* SECTION EXPERIECES PROFESSIONNELS */
-
+/*----- SECTION EXPERIECES PROFESSIONNELS -----*/
 
 /* Cible l'image des cards professionnels */
 .bouton-card {
@@ -447,14 +471,6 @@ right: calc(100% + var(--col-gap) + var(--line-w) / 2);
 }
 }
 
-
-.credits {
-margin-top: 1rem;
-text-align: right;
-}
-.credits a {
-color: var(--color);
-}
 
 /* Partie mes projets */
 .neon1 {
