@@ -26,7 +26,7 @@ require '../utile/formatage.php';
     <li class="external-style-li shadow-lg" style="--accent-color:#41516C">
         <div class="date">Objectif</div>
         <div class="title fs-5">Troisième année de BACHELOR en Alternance</div>
-        <div class="descr fs-5">Dernière année de mon BACHELOR, <br><b>Objectif: Être compétent dans mon domaine, pouvoir développer une application web de A à Z, de sa conception à son déploiement.</b></div>
+        <div class="descr fs-5">Dernière année de mon BACHELOR, <br><b>Objectif:</b> Être compétent dans mon domaine, pouvoir développer une application web de A à Z, de sa conception à son déploiement.</div>
     </li>
     <li class="external-style-li shadow-lg" style="--accent-color:#FBCA3E">
         <div class="date">2023-2024</div>
