@@ -129,42 +129,77 @@ require '../utile/formatage.php';
     </div>
 
 
-<!-- Progress bar -->
-<div class="container text-center" id="competences">
-    <?= formatageTitre("Mes compétences développement 👨‍💻") ?>
-    <div class="row">
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
+    <section id="about" class="section skills-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+        <div class="section-title" >
+          <h2>Mes compétences développement 👨‍💻</h2>
+          
         </div>
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			<p>Toutes ces connaissances ont été acquises de différentes façons. Elles ont été acquises durant mes études en <b>BTS SIO</b> et d'autres par ma propre initiative en essayant de mettre en place des solutions. J’ai également relevé les défis organisés, ce qui permet d’effectuer des recherches et aller encore plus loin.</p>
+                <br>
+				</div>
             </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-        </div>
+            <div class="row skills-parent">
+                <div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up">
+                    <div class="skills-card">
+                        <div class="skills-img"><img src="../source/images/skills/html.png" alt="html"></div>
+                        <div class="skills-name">
+                            <p>html</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2"   data-aos="fade-up" data-aos-delay="100">
+                    <div class="skills-card">
+                        <div class="skills-img"><img src="../source/images/skills/css.png" alt="css"></div>
+                        <div class="skills-name">
+                            <p>css</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2"   data-aos="fade-up" data-aos-delay="200">
+                    <div class="skills-card">
+                        <div class="skills-img"><img src="../source/images/skills/javascript.png" alt="javascript"></div>
+                        <div class="skills-name">
+                            <p>javascript</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2"  data-aos="fade-up" data-aos-delay="300">
+                    <div class="skills-card">
+                        <div class="skills-img"><img src="../source/images/skills/react.png" alt="react"></div>
+                        <div class="skills-name">
+                            <p>react</p>
+                        </div>
+                    </div>
+                </div>
+				
+				
+				
+				<div class="col-6 col-sm-4 col-lg-2"  data-aos="fade-up" data-aos-delay="400">
+                    <div class="skills-card">
+                        <div class="skills-img"><img src="../source/images/skills/php.png" alt="php"></div>
+                        <div class="skills-name">
+                            <p>php</p>
+                        </div>
+                    </div>
+                </div>
+				
+				
+				<div class="col-6 col-sm-4 col-lg-2"  data-aos="fade-up" data-aos-delay="500">
+                    <div class="skills-card">
+                        <div class="skills-img"><img src="../source/images/skills/java.png" alt="java"></div>
+                        <div class="skills-name">
+                            <p>java</p>
+                        </div>
+                    </div>
+                </div>
 
-
-    </div>
-</div>
+                
+            </div>
+        </div>
+		
 
 
 <!-- Card -->
