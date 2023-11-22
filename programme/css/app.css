@@ -13,7 +13,7 @@ html {
 body {
   background-color: #fff8eb !important;
   width: 100%;
-  overflow-x: hidden; /* Empêche le défilement horizontal */
+  overflow-x: hidden !important; /* Empêche le défilement horizontal */
 }
 
 /* MENU */
@@ -65,23 +65,17 @@ body {
   margin-bottom: 5rem;
 }
 
-.section-title{
-  margin-bottom: 20px !important;
-  padding-bottom: 20px !important;
-}
-
 /*----- PRESENTATION ------*/
 
 #presentation {
   justify-content: center; /* Centre horizontalement */
   align-items: center; /* Centre verticalement */
   padding: 60px;
-  height:900px;
   background-color: white !important;;
 }
 
 #accueil {
-  margin-top: 100px !important;
+  margin-top: 60px !important;
 }
 
 /* Cible la div de l'image */  
@@ -167,11 +161,8 @@ div.presentationDescription p {
 
 
 
-/* SECTION EXPERIECES PROFESSIONNELS */
+/* SECTION EXPERIENCES PROFESSIONNELS */
 
-#parcoursScolaire{
-  padding: 60px;
-}
 
 /* Cible l'image des cards professionnels */
 .bouton-card {
@@ -194,10 +185,6 @@ div.presentationDescription p {
 .divEntreprises1 {
   align-items: center;
 }
-
-
-
-
 
 
 /* JE LE GARDE POUR FAIRE L'ANIMATION DE MES CARDS PROJETS */
@@ -252,6 +239,10 @@ div p {
 /*---- Frise -----*/
 /* Ajout perso */
 
+#parcoursScolaire{
+  padding-top: 60px;
+}
+
 .boutonEfrei {
   margin-top: 1rem;
   border-radius: 20px;
@@ -280,7 +271,7 @@ div p {
   grid-auto-columns: max-content;
   column-gap: var(--col-gap);
   list-style: none;
-  width: min(60rem, 90%);
+  width: min(50rem, 90%);
   margin-inline: auto;
 }
 
@@ -643,7 +634,22 @@ div p {
   }
 }
 
+
 @media (max-width: 375px) {
+
+  .monBouton {
+    margin-top: 1rem;
+    animation-name: bouton;
+    background-color: #ff9f1a;
+    color: #461002;
+    border: #461002;
+    animation-duration: 1.1s;
+    width: 200px;
+    animation-iteration-count: infinite; /* Permet de faire indéfiniment l'animation */
+    animation-direction: alternate; /* L'animation partira de 0% à 100% puis de 100% à 0% */
+  }
+
+
   .feur4 {
       left: 100px;
   }

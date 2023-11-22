@@ -15,16 +15,19 @@ require '../utile/formatage.php';
                     <p>Je suis Andoni Lalanne-Berdouticq, un passionné de développement informatique avec un BTS en SIO option SLAM. Ayant récemment repris mes études dans la lignée de mon BTS à Efrei, je me spécialise actuellement dans le développement Full-Stack en Javascript. Mon parcours m'a doté de solides compétences en PHP, Bootstrap, CSS, Docker et Javascript. </p>
             </div>
         </div>
+        <div class="col-12 text-center">
+            <a class="btn rounded-pill monBouton" href="../source/pdf/Lalanne_Berdouticq_CV.pdf" download="Lalanne-Berdouticq-Andoni">Télécharger mon CV</a>
+        </div>
     </div>
-    <div class="text-center mt-3">
-        <a class="btn rounded-pill monBouton" href="../source/pdf/Lalanne_Berdouticq_CV.pdf" download="Lalanne-Berdouticq-Andoni">Télécharger mon CV</a>
-    </div>
+    
 </section>
  
 <!-- Parcours scolaire -->
 <section id="parcoursScolaire">
-    <div class="container text-center" id="parcoursScolaire">
+    <div class="section-title">
         <?= formatageTitre("Mon parcours scolaire 🎓") ?>
+    </div>
+    <div class="container text-center" id="parcoursScolaire">
         <ul class="external-style-ul">
             <li class="external-style-li shadow-lg" style="--accent-color:#41516C">
                 <div class="date">Objectif</div>
@@ -209,11 +212,11 @@ require '../utile/formatage.php';
 <section id="mesProjets">
     <div class="container text-center" id="mesProjets">
         <?= formatageTitre("Mes projets 🚧") ?>
-        <b class="col-12 col-lg-4 neon1">
+        <!--<b class="col-12 col-lg-4 neon1">
             <div class="feur4">
                 <p>Tous mes projets réalisés 📁</p>
             </div>
-        </b>
+        </b>-->
         <div class="m-5 container text-center">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
