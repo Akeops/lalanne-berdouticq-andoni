@@ -3,8 +3,10 @@ require '../utile/formatage.php';
 ?>
 <!-- Présentation de ma personne -->
 <section id="presentation">
-    <div class="container text-center" id="accueil">
+    <div class="section-title">
         <?= formatageTitre("À propos 🗨️") ?>
+    </div>
+    <div class="container text-center" id="accueil">
         <div class="row divPresentation">
             <div class="col-12 col-xl-6  presentation">
                 <img src="../source/images/exemple.png" class="card-img-top img-fluid shadow-lg" alt="...">
@@ -52,7 +54,7 @@ require '../utile/formatage.php';
             </li>
         </ul>
     </div>
-<section>
+</section>
 
 <!-- Mes expériences professionnel -->
 <!-- Card -->
