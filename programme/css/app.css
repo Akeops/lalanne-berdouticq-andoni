@@ -17,11 +17,7 @@ body {
 }
 
 /* MENU */
-.titleColor {  /* Propriété des titres de section */
-  color: #461002 !important;
-  margin-bottom: 5rem;
-  margin-top: 4rem;
-}
+
 
 .navbar-toggler {
   border: 2px solid #ff9f1a;
@@ -63,7 +59,20 @@ body {
       100%{left:0;}
 }
 
-/* PRESENTATION */
+/*----- TITRES -----*/
+.titleColor {  /* Propriété des titres de section */
+  color: #461002 !important;
+  margin-bottom: 5rem;
+}
+
+/*----- PRESENTATION ------*/
+
+#presentation {
+  padding: 60px;
+  height:700px;
+  background-color: white !important;;
+}
+
 /* Cible la div de l'image */  
 div.presentation {
   justify-content: center; /* Centre horizontalement */
@@ -145,7 +154,10 @@ div.presentationDescription p {
   }
 }
 
+
+
 /* SECTION EXPERIECES PROFESSIONNELS */
+
 
 
 /* Cible l'image des cards professionnels */
@@ -425,8 +437,14 @@ div p {
 
 /* ----- Section mes compétences ----- */
 
+.skills-part {
+  text-align: center;
+}
+
+
 .skills-card {
-  background: var(--#fffff0);
+
+  background-color: white;
   text-align: center;
   border-radius: 5px;
   padding: 30px 0px 0px;
@@ -445,11 +463,14 @@ div p {
 .skills-card:hover {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
-  background: var(--primary)
+  background: var(--primary);
+  background-color: #dd5802;
+  border: 1px solid white !important;
+  border-bottom: 0 !important;
 }
 
 .skills-card:hover .skills-img {
-  background: var(--white);
+  background: white !important;
   -webkit-box-shadow: 0px 15px 30px 0px rgba(0,0,0,0.2);
   box-shadow: 0px 15px 30px 0px rgba(0,0,0,0.2)
 }
@@ -459,7 +480,7 @@ div p {
 }
 
 .skills-card:hover .skills-name p {
-  color: var(--white)
+  color: white !important;
 }
 
 .skills-img {
@@ -487,8 +508,9 @@ div p {
 }
 
 .skills-name {
-  border-top: 1px solid var(--border)
+  border-top: 1px solid #ffd688 !important;
 }
+
 
 .skills-name p {
   color: var(--heading);
