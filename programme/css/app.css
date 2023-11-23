@@ -18,8 +18,6 @@ body {
 }
 
 /* MENU */
-
-
 .navbar-toggler {
   border: 2px solid #ff9f1a;
 }
@@ -64,6 +62,16 @@ body {
 .titleColor {  /* Propriété des titres de section */
   color: #461002 !important;
   margin-bottom: 5rem;
+}
+
+.section-title h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #461002;
+  margin-top: 20px;
 }
 
 /*----- PRESENTATION ------*/
@@ -546,7 +554,6 @@ div p {
 /*----- Partie mes projets -----*/
 
 #mesProjets {
-  
   padding: 0;
 }
 .neon1 {
