@@ -14,10 +14,10 @@ body {
   background-color: #fff8eb !important;
   width: 100%;
   overflow-x: hidden !important; /* Empêche le défilement horizontal */
-  letter-spacing: 0.05em;
 }
 
 /* MENU */
+
 .navbar-toggler {
   border: 2px solid #ff9f1a;
 }
@@ -64,6 +64,12 @@ body {
   margin-bottom: 5rem;
 }
 
+.section-title {
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+
 .section-title h2::after {
   content: '';
   position: absolute;
@@ -79,8 +85,8 @@ body {
 #presentation {
   justify-content: center; /* Centre horizontalement */
   align-items: center; /* Centre verticalement */
-  padding: 60px;
-  background-color: white !important;;
+  background-color: white !important;
+  padding-top: 20px;
 }
 
 #accueil {
@@ -172,6 +178,9 @@ div.presentationDescription p {
 
 /* SECTION EXPERIENCES PROFESSIONNELS */
 
+#expPro {
+  padding-top: 30px;
+}
 
 /* Cible l'image des cards professionnels */
 .bouton-card {
@@ -249,7 +258,7 @@ div p {
 /* Ajout perso */
 
 #parcoursScolaire{
-  padding-top: 60px;
+  padding-top: 30px;
 }
 
 .boutonEfrei {
@@ -362,7 +371,6 @@ div p {
   border: 0.3rem solid var(--accent-color);
   border-radius: 50%;
   top: 50%;
-
   transform: translate(50%, -50%);
   right: calc(100% + var(--col-gap) + var(--line-w) / 2);
 }
@@ -450,17 +458,11 @@ div p {
 
 /* ----- Section mes compétences ----- */
 
-.skills-part {
-  text-align: center;
+#competencesPro {
+  padding-top: 30px;
 }
-
-.skills-parent{
-  padding-right:0;
-}
-
 
 .skills-card {
-
   background-color: white;
   text-align: center;
   border-radius: 5px;
@@ -554,7 +556,7 @@ div p {
 /*----- Partie mes projets -----*/
 
 #mesProjets {
-  padding: 0;
+  padding-top: 20px;
 }
 .neon1 {
   color: #461002;
@@ -574,7 +576,7 @@ div p {
 }
 }
 
-.feur4 {
+/*.feur4 {
   display: flex;
   animation: shake 15.9s infinite;
   color: #461002;
@@ -583,7 +585,7 @@ div p {
   right: -1000px;
   font-size: 1.25rem;
   width: 160px;
-}
+}*/
 
 @keyframes shake {
   0% {transform: translate(1px, -2px) rotate(0deg);}

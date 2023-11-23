@@ -19,7 +19,6 @@ require '../utile/formatage.php';
             <a class="btn rounded-pill monBouton" href="../source/pdf/Lalanne_Berdouticq_CV.pdf" download="Lalanne-Berdouticq-Andoni">Télécharger mon CV</a>
         </div>
     </div>
-    
 </section>
  
 <!-- Parcours scolaire -->
@@ -62,8 +61,10 @@ require '../utile/formatage.php';
 <!-- Mes expériences professionnel -->
 <!-- Card -->
 <section id="expPro">
-    <div class="container text-center" id="expProfessionnels">
+    <div class="section-title">
         <?= formatageTitre("Mon parcours professionnel 🤵") ?>
+    </div>
+    <div class="container text-center" id="expProfessionnels"> 
         <div class="container text-center divEntreprises">
             <div class="row divEntreprises1">
                 <div class="col-12 col-md-6 col-lg-4 hoverEffect">
@@ -139,7 +140,7 @@ require '../utile/formatage.php';
 
 
     <section id="competencesPro" class="section skills-part">
-        <div class="container">
+        <div class="container text-center">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title" >
@@ -150,18 +151,18 @@ require '../utile/formatage.php';
                          <br>
 		            </div>
                 </div>
-                <div class="row skills-parent">
-                    <div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up">
-                        <div class="skills-card">
-                            <div class="skills-img"><img src="../source/images/skills/html.png" alt="html"></div>
-                            <div class="skills-name">
-                                <p>html</p>
-                            </div>
+            
+                <div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up">
+                    <div class="skills-card">
+                        <div class="skills-img"><img src="../source/images/skills/html.png" alt="html"></div>
+                        <div class="skills-name">
+                            <p>html</p>
                         </div>
                     </div>
-                    <div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up" data-aos-delay="100">
-                        <div class="skills-card">
-                            <div class="skills-img"><img src="../source/images/skills/css.png" alt="css"></div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skills-card">
+                        <div class="skills-img"><img src="../source/images/skills/css.png" alt="css"></div>
                             <div class="skills-name">
                                 <p>css</p>
                             </div>
@@ -196,7 +197,9 @@ require '../utile/formatage.php';
 				
 				<div class="col-6 col-sm-4 col-lg-2"  data-aos="fade-up" data-aos-delay="500">
                     <div class="skills-card">
-                        <div class="skills-img"><img src="../source/images/skills/java.png" alt="java"></div>
+                        <div class="skills-img">
+                            <img src="../source/images/skills/java.png" alt="java">
+                        </div>
                         <div class="skills-name">
                             <p>java</p>
                         </div>
