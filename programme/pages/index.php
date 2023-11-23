@@ -11,7 +11,7 @@ require '../utile/formatage.php';
             <div class="col-12 col-xl-6  presentation">
                 <img src="../source/images/exemple.png" class="card-img-top img-fluid shadow-lg" alt="...">
             </div>
-            <div class="col-12 col-xl-6 presentationDescription shadow-lg">
+            <div class="col-12 col-xl-6 presentationDescription shadow-lg text-start">
                     <p>Bonjour, je m'appelle Andoni Lalanne-Berdouticq, un passionné de développement informatique avec un BTS en SIO option SLAM. Ayant récemment repris mes études dans la lignée de mon BTS à Efrei, je me spécialise actuellement dans le développement Full-Stack en Javascript. Mon parcours m'a doté de solides compétences en PHP, Bootstrap, CSS, Docker et Javascript. </p>
             </div>
         </div>
@@ -217,10 +217,10 @@ require '../utile/formatage.php';
                 <p>Tous mes projets réalisés 📁</p>
             </div>
         </b>-->
-        <div class="m-5 container text-center">
-            <div class="row">
+        <div class="container text-center">
+            <div class="row text">
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" >
                         <img src="../source/images/card1.jpg" class="card-img-top" height="165px" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Portfolio</h5>
@@ -231,7 +231,7 @@ require '../utile/formatage.php';
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" >
                         <img src="../source/images/card2.jpg" class="card-img-top" height="165px" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">ITwatchdog</h5>
@@ -241,7 +241,7 @@ require '../utile/formatage.php';
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" >
                         <img src="../source/images/card3.jpg" class="card-img-top" height="165px" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Je ne sais pas encore</h5>

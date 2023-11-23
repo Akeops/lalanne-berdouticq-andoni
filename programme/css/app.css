@@ -446,6 +446,10 @@ div p {
   text-align: center;
 }
 
+.skills-parent{
+  padding-right:0;
+}
+
 
 .skills-card {
 
@@ -539,7 +543,12 @@ div p {
   }
 }
 
-/* Partie mes projets */
+/*----- Partie mes projets -----*/
+
+#mesProjets {
+  
+  padding: 0;
+}
 .neon1 {
   color: #461002;
   animation-name: glow;
@@ -653,6 +662,47 @@ div p {
 
   .feur4 {
       left: 100px;
+  }
+
+  .nav-link {
+    font-size: 15px !important;
+  }
+
+  .external-style-ul .external-style-li {
+    grid-column: 2;
+    --inlineP: 1.5rem;
+    margin-inline: var(--inlineP);
+    grid-row: span 2;
+    display: grid;
+    grid-template-rows: min-content min-content min-content;
+    background-color: #fffff0;
+    width: 14rem !important;
+  }
+  
+  /* date */
+  .external-style-ul .external-style-li .date {
+    --dateH: 3rem;
+    height: var(--dateH);
+    margin-inline: calc(var(--inlineP) * -1);
+  
+    text-align: center;
+    background-color: var(--accent-color);
+  
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+  
+    display: grid;
+    place-content: center;
+    position: relative;
+  
+    border-radius: calc(var(--dateH) / 2) 0 0 calc(var(--dateH) / 2);
+    width: 17rem !important;
+  }
+
+  .footer {
+    font-size: 15px !important;
+    width: 100%;
   }
 }
 
