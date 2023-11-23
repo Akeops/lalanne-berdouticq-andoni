@@ -12,7 +12,7 @@ require '../utile/formatage.php';
                 <img src="../source/images/exemple.png" class="card-img-top img-fluid shadow-lg" alt="...">
             </div>
             <div class="col-12 col-xl-6 presentationDescription shadow-lg">
-                    <p>Je suis Andoni Lalanne-Berdouticq, un passionné de développement informatique avec un BTS en SIO option SLAM. Ayant récemment repris mes études dans la lignée de mon BTS à Efrei, je me spécialise actuellement dans le développement Full-Stack en Javascript. Mon parcours m'a doté de solides compétences en PHP, Bootstrap, CSS, Docker et Javascript. </p>
+                    <p>Bonjour, je m'appelle Andoni Lalanne-Berdouticq, un passionné de développement informatique avec un BTS en SIO option SLAM. Ayant récemment repris mes études dans la lignée de mon BTS à Efrei, je me spécialise actuellement dans le développement Full-Stack en Javascript. Mon parcours m'a doté de solides compétences en PHP, Bootstrap, CSS, Docker et Javascript. </p>
             </div>
         </div>
         <div class="col-12 text-center">
