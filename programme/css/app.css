@@ -11,7 +11,6 @@ html {
 }
 
 body {
-  background-color: #fff8eb !important;
   width: 100%; /* Permet au site de prendre 100% de la largeur à travers toutes les tailles d'écrans */
   overflow-x: hidden !important; /* Empêche le défilement horizontal */
 }
@@ -85,7 +84,7 @@ body {
 #presentation {
   justify-content: center; /* Centre horizontalement */
   align-items: center; /* Centre verticalement */
-  background-color: white !important;
+  background-color: rgb(253, 252, 245) !important;
   padding-top: 20px;
 }
 
@@ -174,88 +173,11 @@ div.presentationDescription p {
   }
 }
 
-
-
-/* SECTION EXPERIENCES PROFESSIONNELS */
-
-#expPro {
-  padding-top: 30px;
-}
-
-/* Cible l'image des cards professionnels */
-.bouton-card {
-  border-radius: 15px;
-  border:none !important;
-}
-
-.cardPro {
-  border-color: #ffbc4a !important;
-  border-radius: 15px;
-  transition: transform 0.2s ease;
-}
-
-.cardPro:hover {
-  transform:scale(0.97) !important;
-  transform: rotate(2deg) !important;
-  border: 3px solid #7a250d !important;
-}
-
-.divEntreprises1 {
-  align-items: center;
-}
-
-
-/* JE LE GARDE POUR FAIRE L'ANIMATION DE MES CARDS PROJETS */
-
-
-/* Description des témoigagent */
-div p {
-  color: RGBA(0,0,0,0.68);
-  font-weight: bolder;
-}
-
-
-.animationTemoignage1 {
-  animation-name: temoignage1;
-  animation-duration: 2s;
-  position: relative;
-}
-
-
-@keyframes temoignage1 {
-  0% {left: -1000px;}
-  100% {left: 0px;}
-}
-
-
-.animationTemoignage2 {
-  animation-name: temoignage1;
-  animation-duration: 1.5s;
-  position: relative;
-}
-
-
-@keyframes temoignage2 {
-  0% {left: -1000px;}
-  100% {left: 0px;}
-}
-
-
-.animationTemoignage3 {
-  animation-name: temoignage1;
-  animation-duration: 1s;
-  position: relative;
-}
-
-
-@keyframes temoignage3 {
-  0% {left: -1000px;}
-  100% {left: 0px;}
-}
-
-
-/*---- Frise -----*/
+/*---- MON PARCOURS SCOLAIRE -----*/
 /* Ajout perso */
+#parcoursScolaire {
+  padding-bottom: 30px;
+}
 
 #parcoursScolaire{
   padding-top: 30px;
@@ -455,11 +377,91 @@ div p {
 }
 }
 
+/* SECTION EXPERIENCES PROFESSIONNELS */
 
-/* ----- Section mes compétences ----- */
+#expPro {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  background-color: rgb(253, 252, 245) !important;
+}
+
+/* Cible l'image des cards professionnels */
+.bouton-card {
+  border-radius: 15px;
+  border:none !important;
+}
+
+.cardPro {
+  border-color: #ffbc4a !important;
+  border-radius: 15px;
+  transition: transform 0.2s ease;
+}
+
+.cardPro:hover {
+  transform:scale(0.97) !important;
+  transform: rotate(2deg) !important;
+  border: 3px solid #7a250d !important;
+}
+
+.divEntreprises1 {
+  align-items: center;
+}
+
+
+/* JE LE GARDE POUR FAIRE L'ANIMATION DE MES CARDS PROJETS */
+
+
+/* Description des témoigagent */
+div p {
+  color: RGBA(0,0,0,0.68);
+  font-weight: bolder;
+}
+
+
+.animationTemoignage1 {
+  animation-name: temoignage1;
+  animation-duration: 2s;
+  position: relative;
+}
+
+
+@keyframes temoignage1 {
+  0% {left: -1000px;}
+  100% {left: 0px;}
+}
+
+
+.animationTemoignage2 {
+  animation-name: temoignage1;
+  animation-duration: 1.5s;
+  position: relative;
+}
+
+
+@keyframes temoignage2 {
+  0% {left: -1000px;}
+  100% {left: 0px;}
+}
+
+
+.animationTemoignage3 {
+  animation-name: temoignage1;
+  animation-duration: 1s;
+  position: relative;
+}
+
+
+@keyframes temoignage3 {
+  0% {left: -1000px;}
+  100% {left: 0px;}
+}
+
+
+/* ----- MES COMPETENCES DEVELOPPEMENT ----- */
 
 #competencesPro {
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .skills-card {
@@ -553,10 +555,11 @@ div p {
   }
 }
 
-/*----- Partie mes projets -----*/
+/*----- MES PROJETS -----*/
 
 #mesProjets {
   padding-top: 20px;
+  background-color: rgb(253, 252, 245) !important;
 }
 .neon1 {
   color: #461002;
