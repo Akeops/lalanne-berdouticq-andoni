@@ -7,12 +7,12 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; /* Permet de faire défiler l'écran en "glissant" */
 }
 
 body {
   background-color: #fff8eb !important;
-  width: 100%;
+  width: 100%; /* Permet au site de prendre 100% de la largeur à travers toutes les tailles d'écrans */
   overflow-x: hidden !important; /* Empêche le défilement horizontal */
 }
 
@@ -65,7 +65,7 @@ body {
 }
 
 .section-title {
-  padding-top: 20px;
+  padding-top: 40px;
   padding-left: 10px;
 }
 

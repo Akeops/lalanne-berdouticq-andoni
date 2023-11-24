@@ -139,82 +139,84 @@ require '../utile/formatage.php';
     </section>
 
 
-    <section id="competencesPro" class="section skills-part">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title" >
-                        <?= formatageTitre("Mes compétences développement 👨‍💻") ?>  
-                    </div>
-                    <div>
-                        <p class="competencesDescription">Toutes ces connaissances ont été acquises de différentes façons. Elles ont été acquises durant mes études en <b>BTS SIO</b> et d'autres par ma propre initiative en essayant de mettre en place des solutions. J’ai également relevé les défis organisés, ce qui permet d’effectuer des recherches et aller encore plus loin.</p>
-                         <br>
-		            </div>
-                </div>
+<section id="competencesPro" class="section skills-part">
+    <div class="section-title">
+        <?= formatageTitre("Mes compétences développement 👨‍💻") ?>
+    </div>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-12">
+                <div>
+                    <p class="competencesDescription">Toutes ces connaissances ont été acquises de différentes façons. Elles ont été acquises durant mes études en <b>BTS SIO</b> et d'autres par ma propre initiative en essayant de mettre en place des solutions. J’ai également relevé les défis organisés, ce qui permet d’effectuer des recherches et aller encore plus loin.</p>
+                    <br>
+		        </div>
+            </div>
             
-                <div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up">
-                    <div class="skills-card">
-                        <div class="skills-img"><img src="../source/images/skills/html.png" alt="html"></div>
+            <div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up">
+                <div class="skills-card">
+                    <div class="skills-img"><img src="../source/images/skills/html.png" alt="html"></div>
+                    <div class="skills-name">
+                        <p>html</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up" data-aos-delay="100">
+                <div class="skills-card">
+                    <div class="skills-img"><img src="../source/images/skills/css.png" alt="css"></div>
                         <div class="skills-name">
-                            <p>html</p>
+                            <p>css</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up" data-aos-delay="100">
-                    <div class="skills-card">
-                        <div class="skills-img"><img src="../source/images/skills/css.png" alt="css"></div>
-                            <div class="skills-name">
-                                <p>css</p>
-                            </div>
-                        </div>
-                    </div>
                 
-                <div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up" data-aos-delay="200">
-                    <div class="skills-card">
-                        <div class="skills-img"><img src="../source/images/skills/javascript.png" alt="javascript"></div>
-                        <div class="skills-name">
-                            <p>javascript</p>
-                        </div>
+            <div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up" data-aos-delay="200">
+                <div class="skills-card">
+                    <div class="skills-img"><img src="../source/images/skills/javascript.png" alt="javascript"></div>
+                    <div class="skills-name">
+                        <p>javascript</p>
                     </div>
                 </div>
-                <div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up" data-aos-delay="300">
-                    <div class="skills-card">
-                        <div class="skills-img"><img src="../source/images/skills/react.png" alt="react"></div>
-                        <div class="skills-name">
-                            <p>react</p>
-                        </div>
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up" data-aos-delay="300">
+                <div class="skills-card">
+                    <div class="skills-img"><img src="../source/images/skills/react.png" alt="react"></div>
+                    <div class="skills-name">
+                        <p>react</p>
                     </div>
                 </div>
+            </div>
 				
-				<div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up" data-aos-delay="400">
-                    <div class="skills-card">
-                        <div class="skills-img"><img src="../source/images/skills/php.png" alt="php"></div>
-                        <div class="skills-name">
-                            <p>php</p>
-                        </div>
+			<div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up" data-aos-delay="400">
+                <div class="skills-card">
+                    <div class="skills-img"><img src="../source/images/skills/php.png" alt="php"></div>
+                    <div class="skills-name">
+                        <p>php</p>
                     </div>
                 </div>
+            </div>
 				
-				<div class="col-6 col-sm-4 col-lg-2"  data-aos="fade-up" data-aos-delay="500">
-                    <div class="skills-card">
-                        <div class="skills-img">
-                            <img src="../source/images/skills/java.png" alt="java">
-                        </div>
-                        <div class="skills-name">
-                            <p>java</p>
-                        </div>
+			<div class="col-6 col-sm-4 col-lg-2"  data-aos="fade-up" data-aos-delay="500">
+                <div class="skills-card">
+                    <div class="skills-img">
+                        <img src="../source/images/skills/java.png" alt="java">
+                    </div>
+                    <div class="skills-name">
+                        <p>java</p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 		
 
 
 <!-- Card -->
 <section id="mesProjets">
-    <div class="container text-center" id="mesProjets">
+    <div class="section-title">
         <?= formatageTitre("Mes projets 🚧") ?>
+    </div>
+    <div class="container text-center" id="mesProjets">
         <!--<b class="col-12 col-lg-4 neon1">
             <div class="feur4">
                 <p>Tous mes projets réalisés 📁</p>
