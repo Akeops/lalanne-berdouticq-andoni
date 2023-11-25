@@ -486,7 +486,7 @@ div p {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
   background: var(--primary);
-  background-color: #dd5802;
+  background-color: #ca8627;
   border: 1px solid white !important;
   border-bottom: 0 !important;
 }
@@ -530,7 +530,7 @@ div p {
 }
 
 .skills-name {
-  border-top: 1px solid #ffd688 !important;
+  border-top: 1px solid #ff9f1a !important;
 }
 
 

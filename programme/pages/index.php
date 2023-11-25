@@ -208,6 +208,77 @@ require '../utile/formatage.php';
         </div>
     </div>
 </section>
+
+
+<section id="outilsLogiciel" class="section skills-part">
+    <div class="section-title">
+        <?= formatageTitre("Mes outils / logiciel ⚙️") ?>
+    </div>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-12">
+                <div>
+                    <p class="competencesDescription">Toutes ces connaissances ont été acquises de différentes façons. Elles ont été acquises durant mes études en <b>BTS SIO</b> et d'autres par ma propre initiative en essayant de mettre en place des solutions. J’ai également relevé les défis organisés, ce qui permet d’effectuer des recherches et aller encore plus loin.</p>
+                    <br>
+		        </div>
+            </div>
+            
+            <div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up">
+                <div class="skills-card">
+                    <div class="skills-img"><img src="../source/images/skills/html.png" alt="visualStudio"></div>
+                    <div class="skills-name">
+                        <p>Visual Studio</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up" data-aos-delay="100">
+                <div class="skills-card">
+                    <div class="skills-img"><img src="../source/images/skills/css.png" alt="netbeans"></div>
+                        <div class="skills-name">
+                            <p>netbeans</p>
+                        </div>
+                    </div>
+                </div>
+                
+            <div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up" data-aos-delay="200">
+                <div class="skills-card">
+                    <div class="skills-img"><img src="../source/images/skills/javascript.png" alt="github"></div>
+                    <div class="skills-name">
+                        <p>Github</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up" data-aos-delay="300">
+                <div class="skills-card">
+                    <div class="skills-img"><img src="../source/images/skills/webstorm.png" alt="webstorm"></div>
+                    <div class="skills-name">
+                        <p>webstorm</p>
+                    </div>
+                </div>
+            </div>
+				
+			<div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up" data-aos-delay="400">
+                <div class="skills-card">
+                    <div class="skills-img"><img src="../source/images/skills/php.png" alt="php"></div>
+                    <div class="skills-name">
+                        <p>php</p>
+                    </div>
+                </div>
+            </div>
+				
+			<div class="col-6 col-sm-4 col-lg-2"  data-aos="fade-up" data-aos-delay="500">
+                <div class="skills-card">
+                    <div class="skills-img">
+                        <img src="../source/images/skills/java.png" alt="java">
+                    </div>
+                    <div class="skills-name">
+                        <p>java</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 		
 
 
