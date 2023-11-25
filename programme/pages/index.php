@@ -6,7 +6,7 @@ require '../utile/formatage.php';
     <div class="section-title">
         <?= formatageTitre("À propos 🗨️") ?>
     </div>
-    <div class="container text-center" id="accueil">
+    <div class="container text-center">
         <div class="row divPresentation">
             <div class="col-12 col-xl-6  presentation">
                 <img src="../source/images/exemple.png" class="card-img-top img-fluid shadow-lg" alt="...">
@@ -64,7 +64,7 @@ require '../utile/formatage.php';
     <div class="section-title">
         <?= formatageTitre("Mon parcours professionnel 🤵") ?>
     </div>
-    <div class="container text-center" id="expProfessionnels"> 
+    <div class="container text-center"> 
         <div class="container text-center divEntreprises">
             <div class="row divEntreprises1">
                 <div class="col-12 col-md-6 col-lg-4 hoverEffect">
@@ -216,7 +216,7 @@ require '../utile/formatage.php';
     <div class="section-title">
         <?= formatageTitre("Mes projets 🚧") ?>
     </div>
-    <div class="container text-center" id="mesProjets">
+    <div class="container text-center">
         <!--<b class="col-12 col-lg-4 neon1">
             <div class="feur4">
                 <p>Tous mes projets réalisés 📁</p>
