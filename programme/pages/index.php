@@ -26,7 +26,7 @@ require '../utile/formatage.php';
     <div class="section-title">
         <?= formatageTitre("Mon parcours scolaire 🎓") ?>
     </div>
-    <div class="container text-center" id="parcoursScolaire">
+    <div class="container text-center">
         <ul class="external-style-ul">
             <li class="external-style-li shadow-lg" style="--accent-color:#41516C">
                 <div class="date">Objectif</div>

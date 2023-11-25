@@ -15,10 +15,10 @@
           <a class="nav-link" href="index.php#parcoursScolaire">Parcours scolaire</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.php#expProfessionnels">Expériences professionnels</a>
+          <a class="nav-link" href="index.php#expPro">Expériences professionnels</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.php#competences">Compétences</a>
+          <a class="nav-link" href="index.php#competencesPro">Compétences</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="index.php#mesProjets">Mes projets</a>
