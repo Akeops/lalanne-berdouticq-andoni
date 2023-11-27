@@ -225,7 +225,7 @@ require '../utile/formatage.php';
             
             <div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up">
                 <div class="skills-card">
-                    <div class="skills-img"><img src="../source/images/skills/html.png" alt="visualStudio"></div>
+                    <div class="skills-img"><img src="../source/images/skills/vscode.png" alt="visualStudio"></div>
                     <div class="skills-name">
                         <p>Visual Studio</p>
                     </div>
@@ -233,7 +233,7 @@ require '../utile/formatage.php';
             </div>
             <div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up" data-aos-delay="100">
                 <div class="skills-card">
-                    <div class="skills-img"><img src="../source/images/skills/css.png" alt="netbeans"></div>
+                    <div class="skills-img"><img src="../source/images/skills/netbeans.png" alt="netbeans"></div>
                         <div class="skills-name">
                             <p>netbeans</p>
                         </div>
@@ -242,7 +242,7 @@ require '../utile/formatage.php';
                 
             <div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up" data-aos-delay="200">
                 <div class="skills-card">
-                    <div class="skills-img"><img src="../source/images/skills/javascript.png" alt="github"></div>
+                    <div class="skills-img"><img src="../source/images/skills/github.png" alt="github"></div>
                     <div class="skills-name">
                         <p>Github</p>
                     </div>
