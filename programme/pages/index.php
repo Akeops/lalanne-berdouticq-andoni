@@ -15,7 +15,7 @@ require '../utile/formatage.php';
                     <p>Bonjour, je m'appelle Andoni Lalanne-Berdouticq, un passionné de développement informatique avec un BTS en SIO option SLAM. Ayant récemment repris mes études dans la lignée de mon BTS à Efrei, je me spécialise actuellement dans le développement Full-Stack en Javascript. Mon parcours m'a doté de solides compétences en PHP, Bootstrap, CSS, Docker et Javascript. </p>
             </div>
         </div>
-        <div class="col-12 text-center">
+        <div class="col-12 text-center boutonCV">
             <a class="btn rounded-pill monBouton" href="../source/pdf/Lalanne_Berdouticq_CV.pdf" download="Lalanne-Berdouticq-Andoni">Télécharger mon CV</a>
         </div>
     </div>

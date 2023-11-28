@@ -86,7 +86,7 @@ body {
   align-items: center; /* Centre verticalement */
   background-color: rgb(253, 252, 245) !important;
   padding-top: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 70px;
 }
 
 #accueil {
@@ -141,7 +141,6 @@ div.presentationDescription p {
 
 /* bouton téléchargement CV */
 .monBouton {
-  margin-top: 4rem;
   animation-name: bouton;
   background-color: #ff9f1a;
   color: #461002;
@@ -152,6 +151,9 @@ div.presentationDescription p {
   animation-direction: alternate; /* L'animation partira de 0% à 100% puis de 100% à 0% */
 }
 
+.boutonCV{
+  margin-top: 4rem;
+}
 
 .monBouton:hover {
   background-color: #ffbc4a;
@@ -177,11 +179,8 @@ div.presentationDescription p {
 /*---- MON PARCOURS SCOLAIRE -----*/
 /* Ajout perso */
 #parcoursScolaire {
-  padding-bottom: 30px;
-}
-
-#parcoursScolaire{
   padding-top: 30px;
+  padding-bottom: 70px;
 }
 
 .boutonEfrei {
@@ -378,11 +377,11 @@ div.presentationDescription p {
 }
 }
 
-/* SECTION EXPERIENCES PROFESSIONNELS */
+/* SECTION PARCOURS PROFESSIONNELS */
 
 #expPro {
   padding-top: 30px;
-  padding-bottom: 50px;
+  padding-bottom: 70px;
   background-color: rgb(253, 252, 245) !important;
 }
 
@@ -458,11 +457,16 @@ div p {
 }
 
 
-/* ----- MES COMPETENCES DEVELOPPEMENT ----- */
+/* ----- MES COMPETENCES DEVELOPPEMENT ET OUTILS/LOGICIELS ----- */
 
 #competencesPro {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 70px;
+}
+
+#outilsLogiciel{
+  background-color: rgb(253, 252, 245) !important;
+  padding-bottom: 70px;
 }
 
 .skills-card {
@@ -560,7 +564,7 @@ div p {
 
 #mesProjets {
   padding-top: 20px;
-  background-color: rgb(253, 252, 245) !important;
+  padding-bottom: 70px;
 }
 .neon1 {
   color: #461002;
