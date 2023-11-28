@@ -219,7 +219,7 @@ require '../utile/formatage.php';
 		        </div>
             </div>
             
-            <div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up">
+            <div class="col-6 col-sm-4 col-lg-3" data-aos="fade-up">
                 <div class="skills-card">
                     <div class="skills-img"><img src="../source/images/skills/vscode.png" alt="visualStudio"></div>
                     <div class="skills-name">
@@ -227,7 +227,7 @@ require '../utile/formatage.php';
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-6 col-sm-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
                 <div class="skills-card">
                     <div class="skills-img"><img src="../source/images/skills/netbeans.png" alt="netbeans"></div>
                         <div class="skills-name">
@@ -236,15 +236,15 @@ require '../utile/formatage.php';
                     </div>
                 </div>
                 
-            <div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-6 col-sm-4 col-lg-3" data-aos="fade-up" data-aos-delay="200">
                 <div class="skills-card">
                     <div class="skills-img"><img src="../source/images/skills/github.png" alt="github"></div>
                     <div class="skills-name">
-                        <p>Github</p>
+                        <p><a class="lienOutil" href="https://github.com/Akeops" target="_blank">github</a></p>
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up" data-aos-delay="300">
+            <div class="col-6 col-sm-4 col-lg-3" data-aos="fade-up" data-aos-delay="300">
                 <div class="skills-card">
                     <div class="skills-img"><img src="../source/images/skills/webstorm.png" alt="webstorm"></div>
                     <div class="skills-name">

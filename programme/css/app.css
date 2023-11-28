@@ -469,6 +469,11 @@ div p {
   padding-bottom: 70px;
 }
 
+p a {
+  color: inherit;
+  text-decoration: underline !important;
+}
+
 .skills-card {
   background-color: white;
   text-align: center;
