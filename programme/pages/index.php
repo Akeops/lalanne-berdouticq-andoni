@@ -177,6 +177,14 @@ require '../utile/formatage.php';
                     </div>
                 </div>
             </div>
+            <div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up" data-aos-delay="400">
+                <div class="skills-card">
+                    <div class="skills-img"><img src="../source/images/skills/bootstrap.png" alt="php"></div>
+                    <div class="skills-name">
+                        <p>bootstrap</p>
+                    </div>
+                </div>
+            </div>
 			<div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up" data-aos-delay="400">
                 <div class="skills-card">
                     <div class="skills-img"><img src="../source/images/skills/php.png" alt="php"></div>
@@ -187,9 +195,9 @@ require '../utile/formatage.php';
             </div>
             <div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up" data-aos-delay="400">
                 <div class="skills-card">
-                    <div class="skills-img"><img src="../source/images/skills/bootstrap.png" alt="php"></div>
+                    <div class="skills-img"><img src="../source/images/skills/node.png" alt="php"></div>
                     <div class="skills-name">
-                        <p>bootstrap</p>
+                        <p>node.js</p>
                     </div>
                 </div>
             </div>
