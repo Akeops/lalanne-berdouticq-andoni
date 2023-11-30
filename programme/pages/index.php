@@ -272,7 +272,7 @@ require '../utile/formatage.php';
                         <br>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-3">
                     <div class="card shadow-lg">
                         <img src="../source/images/exemple.png" class="card-img-top" alt="...">
                         <div class="card-body">
