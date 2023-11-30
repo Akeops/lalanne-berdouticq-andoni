@@ -272,13 +272,13 @@ require '../utile/formatage.php';
                         <br>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="card shadow-lg">
-                        <img src="../source/images/exemple.png" class="card-img-top" alt="...">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card shadow-lg cardProjet">
+                        <img src="../source/images/projetPortfolio.png" class="card-img-top" alt="portfolio">
                         <div class="card-body">
                             <h5 class="card-title"><b>Portfolio</b></h5>
                             <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cours1">Détails</button>
+                            <button type="button" class="m-3 rounded-4 btn monBouton" data-bs-toggle="modal" data-bs-target="#projet1">Détails</button>
                         </div>
                     </div>
                 </div>
@@ -288,15 +288,15 @@ require '../utile/formatage.php';
     </div>
    
     <!-- Modal (Fenêtre qui apparaît quand on clique sur le bouton de la card) -->
-    <div class="modal fade" id="cours1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="projet1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Portfol.io</h1>
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Portfolio</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <img src="../source/images/card1.jpg" class="card-img-top" alt="...">
+                    <img src="../source/images/projetPortfolio.png" class="card-img-top" alt="portfolio">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fugit nemo libero ipsa blanditiis earum unde, neque eum modi obcaecati repellendus odio quos deserunt sunt quia nobis reprehenderit! Laboriosam, optio.</p>
                 </div>
                 <div class="modal-footer">
