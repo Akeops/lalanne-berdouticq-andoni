@@ -466,6 +466,7 @@ div p {
 
 #outilsLogiciel{
   background-color: rgb(253, 252, 245) !important;
+  padding-top: 30px;
   padding-bottom: 70px;
 }
 
@@ -661,8 +662,8 @@ p a {
     overflow: hidden; /* Ou overflow: auto; selon vos préférences */
   }
 
-  .feur4 {
-    right: -900px;
+  .cardPro{
+    margin-top: 1rem;
   }
 }
 
