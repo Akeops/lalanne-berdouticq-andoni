@@ -263,45 +263,26 @@ require '../utile/formatage.php';
     <div class="section-title">
         <?= formatageTitre("Mes projets 🚧") ?>
     </div>
-    <div class="container text-center">
-        <!--<b class="col-12 col-lg-4 neon1">
-            <div class="feur4">
-                <p>Tous mes projets réalisés 📁</p>
-            </div>
-        </b>-->
-        <div class="container text-center">
-            <div class="row text">
+    <div class="container">
+        <div class="container d-flex justify-content-center">
+            <div class="row text text-center justify-content-center">
+                <div class="col-lg-12">
+                    <div>
+                        <p class="competencesDescription">En parallèle de mes études en Bachelor, je consacre mon temps personnel à la réalisation de projets, cherchant activement à acquérir et développer de nouvelles compétences. Mon initiative personnelle, combinée à ma participation à des défis, enrichit ma formation et me pousse à explorer des solutions innovantes.</p>
+                        <br>
+                    </div>
+                </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card" >
-                        <img src="../source/images/card1.jpg" class="card-img-top" height="165px" alt="...">
+                    <div class="card shadow-lg">
+                        <img src="../source/images/exemple.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Portfolio</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-title"><b>Portfolio</b></h5>
                             <!-- Button trigger modal -->
                             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cours1">Détails</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card" >
-                        <img src="../source/images/card2.jpg" class="card-img-top" height="165px" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">ITwatchdog</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cours2">Détails</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card" >
-                        <img src="../source/images/card3.jpg" class="card-img-top" height="165px" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Je ne sais pas encore</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cours3">Détails</button>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>
@@ -316,44 +297,6 @@ require '../utile/formatage.php';
                 </div>
                 <div class="modal-body">
                     <img src="../source/images/card1.jpg" class="card-img-top" alt="...">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fugit nemo libero ipsa blanditiis earum unde, neque eum modi obcaecati repellendus odio quos deserunt sunt quia nobis reprehenderit! Laboriosam, optio.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal (Fenêtre qui apparaît quand on clique sur le bouton de la card) -->
-    <div class="modal fade" id="cours2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="cours2">ITwatchdog</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <img src="../source/images/card2.jpg" class="card-img-top" alt="...">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fugit nemo libero ipsa blanditiis earum unde, neque eum modi obcaecati repellendus odio quos deserunt sunt quia nobis reprehenderit! Laboriosam, optio.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal (Fenêtre qui apparaît quand on clique sur le bouton de la card) -->
-    <div class="modal fade" id="cours3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="cours2">ITwatchdog</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <img src="../source/images/card3.jpg" class="card-img-top" alt="...">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fugit nemo libero ipsa blanditiis earum unde, neque eum modi obcaecati repellendus odio quos deserunt sunt quia nobis reprehenderit! Laboriosam, optio.</p>
                 </div>
                 <div class="modal-footer">

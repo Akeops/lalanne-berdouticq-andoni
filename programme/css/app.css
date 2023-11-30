@@ -120,7 +120,7 @@ div.presentationDescription {
   display: flex;
   align-items: center; /* Aligne verticalement le texte au centre */
   border-radius: 15px; /* Vous pouvez ajuster la valeur du rayon selon vos préférences */
-  background-color: #fffff0!important; /* Couleur de fond pour illustrer l'effet d'arrondi */
+  background-color: rgb(253, 252, 245) !important; /* Couleur de fond pour illustrer l'effet d'arrondi */
   border: 1px solid #ffd688; /* Pour visualiser la zone de l'élément parent */
   overflow: hidden; /* Ou overflow: auto; selon vos préférences */
 }
@@ -246,7 +246,7 @@ div.presentationDescription p {
   grid-row: span 2;
   display: grid;
   grid-template-rows: min-content min-content min-content;
-  background-color: #fffff0;
+
 }
 
 /* date */
