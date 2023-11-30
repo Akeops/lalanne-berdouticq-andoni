@@ -662,9 +662,11 @@ p a {
     overflow: hidden; /* Ou overflow: auto; selon vos préférences */
   }
 
-  .cardPro{
+  .cardPro, .card{
     margin-top: 1rem;
   }
+
+
 }
 
 
