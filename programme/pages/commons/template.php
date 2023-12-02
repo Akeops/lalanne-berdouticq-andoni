@@ -15,7 +15,7 @@
         <?php require("menu.php"); ?>
         <?= $content ?>
         <footer>
-            <div class="nav-link text-center p-3 footer" style="background-color: black;">© Lalanne-Berdouticq Andoni - Portfolio</div>
+            <div class="text-center p-3 footer">© Lalanne-Berdouticq Andoni - Portfolio</div>
         </footer>
     </body>
 </html>

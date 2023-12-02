@@ -128,7 +128,7 @@ require '../utile/formatage.php';
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Pendant mon engagement dans la conception d'un site, j'ai apporté une contribution significative en utilisant PrestaShop pour la partie frontend et en développant le backend avec Symfony. Cette approche m'a permis de participer activement à la création complète du site, en optimisant à la fois l'expérience utilisateur et les fonctionnalités côté serveur.</p>
+                        <p>Pendant mon engagement dans la conception d'un site, j'ai apporté une contribution significative en utilisant PrestaShop pour la partie frontend et en développant le backend avec Symfony en backend. Cette approche m'a permis de participer activement à la création complète du site, en optimisant à la fois l'expérience utilisateur et les fonctionnalités côté serveur.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
