@@ -15,7 +15,15 @@
         <?php require("menu.php"); ?>
         <?= $content ?>
         <footer>
-            <div class="text-center p-3 footer">© Lalanne-Berdouticq Andoni - Portfolio</div>
+            <div class="container text-center">
+                <div class="row align-items-start containerFooter">
+                    <div class="col">
+                        © Lalanne-Berdouticq Andoni - Portfolio
+                    </div>
+                    <div class="col">
+                        © Lalanne-Berdouticq Andoni - Portfolio
+                    </div>
+                </div>
         </footer>
     </body>
 </html>

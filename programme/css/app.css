@@ -601,11 +601,22 @@ p a {
 
 /*----- FOOTER -----*/
 
-.footer {
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: black !important;
   color: #ff9f1a !important;
   font-size: 15px !important;
-  width: 100%;
+  width: 100% !important;
+  height: 10rem !important;
+  margin: 0 !important;
+
+  
+}
+
+.containerFooter {
+  top: 50%;
 }
 
 
