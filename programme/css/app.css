@@ -598,7 +598,6 @@ p a {
 }
 
 
-
 /*----- FOOTER -----*/
 
 footer {
@@ -606,17 +605,31 @@ footer {
   align-items: center;
   justify-content: center;
   background-color: black !important;
-  color: #ff9f1a !important;
+  color: white !important;
   font-size: 15px !important;
   width: 100% !important;
-  height: 10rem !important;
+  height: 12rem !important;
   margin: 0 !important;
-
+  border-top-left-radius: 15px; /* Rayon du coin supérieur gauche */
+  border-top-right-radius: 15px; /* Rayon du coin supérieur droit */
   
 }
 
 .containerFooter {
   top: 50%;
+}
+
+.liFooter {
+  list-style: none;
+}
+
+.footer_a{
+  color: inherit;
+  text-decoration: none; /* Facultatif : pour supprimer le soulignement par défaut des liens */
+}
+
+.footer_a:hover{
+  color: #ffbc4a;
 }
 
 
