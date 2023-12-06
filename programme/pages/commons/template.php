@@ -15,14 +15,14 @@
         <?php require("menu.php"); ?>
         <?= $content ?>
         <footer>
-            <div class="container text-start">
-                <div class="row align-items-center">
-                    <div class="col">
+            <div class="container text-start containerFooter">
+                <div class="row align-items-center rowFooter">
+                    <div class="col-12 col-sm-6 col-lg-4">
                         <ul>
                             <li class="liFooter">© Lalanne-Berdouticq Andoni</li>
                         </ul>
                     </div>
-                    <div class="col">
+                    <div class="col-12 col-sm-6 col-lg-4">
                         <ul>
                             <h5>Liste de Navigation</h5>
                             <li class="liFooter"><a class="footer_a" aria-current="page" href="index.php#presentation">Accueil</a></li>
@@ -30,9 +30,9 @@
                             <li class="liFooter"><a class="footer_a" href="index.php#competencesPro">Compétences</a></li>
                         </ul>
                     </div>
-                    <div class="col">
+                    <div class="col-12 col-sm-6 col-lg-4">
                         <ul>
-                            <h5>Liste de Navigation</h5>
+                            <h5>Contact</h5>
                             <li class="liFooter"><a class="footer_a" aria-current="page" href="index.php#presentation">Accueil</a></li>
                             <li class="liFooter"><a class="footer_a" href="index.php#expPro">Expériences professionnels</a></li>
                             <li class="liFooter"><a class="footer_a" href="index.php#competencesPro">Compétences</a></li>

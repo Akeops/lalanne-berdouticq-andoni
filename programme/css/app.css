@@ -608,15 +608,20 @@ footer {
   color: white !important;
   font-size: 15px !important;
   width: 100% !important;
-  height: 12rem !important;
+  height: 17rem !important;
   margin: 0 !important;
   border-top-left-radius: 15px; /* Rayon du coin supérieur gauche */
   border-top-right-radius: 15px; /* Rayon du coin supérieur droit */
-  
+  bottom: 0 !important;
 }
 
 .containerFooter {
+  height: 100% !important;
   top: 50%;
+}
+
+.rowFooter {
+  height: 100% !important;
 }
 
 .liFooter {
