@@ -604,6 +604,7 @@ p a {
   text-decoration: unset; 
 }
 .footer_a:hover { 
+  color: #ffbc4a;
   text-decoration: underline; 
 }
 .footer_a { 

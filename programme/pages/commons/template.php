@@ -21,25 +21,25 @@
                     <img src="images/logo-web-component-white.webp" alt="logo" width="50px">
                 </div>
                 <div class="logo-info">
-                    <div class="footer_text">LE DOHER Loïc</div>
-                    <span class="copyright">© 2022. All rights reserved.</span>
+                    <div class="footer_text">LALANNE-BERDUTICQ Andoni</div>
+                    <span class="copyright">© 2023. All rights reserved.</span>
                 </div>
             </div>
             <div class="column is-nav">
                 <div class="column-title">Navigation</div>
                 <ul>
-                    <li><a href="index.html" class="footer_a">Accueil</a></li>
-                    <li><a href="entreprise.html" class="footer_a">Mon entreprise</a></li>
-                    <li><a href="Veille_Technologique.php" class="footer_a">Ma veille</a></li>
+                    <li><a href="index.php#presentation" class="footer_a">Présentation</a></li>
+                    <li><a href="index.php#expPro" class="footer_a">Parcours Professionnel</a></li>
+                    <li><a href="index.php#competencesPro" class="footer_a">Compétences</a></li>
                 </ul>
             </div>
             <div class="column is-nav">
                 <div class="column-title">Contact</div>
                 <ul>
                     <li><a href="mailto:loic.ledoher@gmail.com" class="footer_a"><i class="fa fa-envelope-open"></i>
-                            loic.ledoher@gmail.com</a></li>
-                    <li><a href="#footer" class="footer_a"><i class="fa fa-phone"></i> 07 83 49 98 20</a></li>
-                    <li><a href="https://www.linkedin.com/in/loic-le-doher/" target="_blank" rel="noreferrer" class="footer_a"><i
+                            lalanne.andoni1@gmail.com</a></li>
+                    <li><a href="#footer" class="footer_a"><i class="fa fa-phone"></i> 0662455792</a></li>
+                    <li><a href="https://www.linkedin.com/in/andoni-lalanne-berdouticq-240104179/" target="_blank" rel="noreferrer" class="footer_a"><i
                                 class="fa fa-linkedin"></i> Linkedin</a></li>
                 </ul>
             </div>
