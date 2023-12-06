@@ -14,32 +14,43 @@
     <body>
         <?php require("menu.php"); ?>
         <?= $content ?>
-        <footer>
-            <div class="container text-start containerFooter">
-                <div class="row align-items-center rowFooter">
-                    <div class="col-12 col-sm-6 col-lg-4">
-                        <ul>
-                            <li class="liFooter">© Lalanne-Berdouticq Andoni</li>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-4">
-                        <ul>
-                            <h5>Liste de Navigation</h5>
-                            <li class="liFooter"><a class="footer_a" aria-current="page" href="index.php#presentation">Accueil</a></li>
-                            <li class="liFooter"><a class="footer_a" href="index.php#expPro">Expériences professionnels</a></li>
-                            <li class="liFooter"><a class="footer_a" href="index.php#competencesPro">Compétences</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-4">
-                        <ul>
-                            <h5>Contact</h5>
-                            <li class="liFooter"><a class="footer_a" aria-current="page" href="index.php#presentation">Accueil</a></li>
-                            <li class="liFooter"><a class="footer_a" href="index.php#expPro">Expériences professionnels</a></li>
-                            <li class="liFooter"><a class="footer_a" href="index.php#competencesPro">Compétences</a></li>
-                        </ul>
-                    </div>
+        <footer class="footer" id="footer">
+        <div class="inner">
+            <div class="column is-logo">
+                <div class="logo">
+                    <img src="images/logo-web-component-white.webp" alt="logo" width="50px">
+                </div>
+                <div class="logo-info">
+                    <div class="footer_text">LE DOHER Loïc</div>
+                    <span class="copyright">© 2022. All rights reserved.</span>
                 </div>
             </div>
-        </footer>
+            <div class="column is-nav">
+                <div class="column-title">Navigation</div>
+                <ul>
+                    <li><a href="index.html" class="footer_a">Accueil</a></li>
+                    <li><a href="entreprise.html" class="footer_a">Mon entreprise</a></li>
+                    <li><a href="Veille_Technologique.php" class="footer_a">Ma veille</a></li>
+                </ul>
+            </div>
+            <div class="column is-nav">
+                <div class="column-title">Contact</div>
+                <ul>
+                    <li><a href="mailto:loic.ledoher@gmail.com" class="footer_a"><i class="fa fa-envelope-open"></i>
+                            loic.ledoher@gmail.com</a></li>
+                    <li><a href="#footer" class="footer_a"><i class="fa fa-phone"></i> 07 83 49 98 20</a></li>
+                    <li><a href="https://www.linkedin.com/in/loic-le-doher/" target="_blank" rel="noreferrer" class="footer_a"><i
+                                class="fa fa-linkedin"></i> Linkedin</a></li>
+                </ul>
+            </div>
+            <div class="column is-nav">
+                <div class="column-title">Informations</div>
+                <ul>
+                    <li><a href="Mentions_Legales.html" class="footer_a">Mentions Légales</a></li>
+                    <li><a href="#" class="footer_a">Conditions d'utilisation</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
     </body>
 </html>
