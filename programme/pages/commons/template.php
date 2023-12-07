@@ -31,7 +31,7 @@
                 <div class="column is-logo">
                     <ul>
                         <div class="logo">
-                            <img src="../source/images/logoPortfolio.jpg" alt="logo" width="50px">
+                            <img src="../source/images/logoPortfolio.png" alt="logo" width="50px">
                         </div>
                         <div class="logo-info">
                             <div class="footer_text">LALANNE-BERDUTICQ Andoni</div>
@@ -61,7 +61,7 @@
                 <div class="column is-nav">
                     <ul>
                     <div class="column-title">Informations</div>
-                        <li class="liFooter"><a href="./mentionsLegales.html" class="footer_a" target="_blank">Mentions Légales</a></li>
+                        <li class="liFooter"><a href="./mentionsLegales.php" class="footer_a" target="_blank">Mentions Légales</a></li>
                         <li class="liFooter"><a href="#" class="footer_a">Conditions d'utilisation</a></li>
                     </ul>
                 </div>
