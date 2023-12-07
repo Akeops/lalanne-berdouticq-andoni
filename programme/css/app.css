@@ -739,8 +739,23 @@ ul > li { line-height: 1.5em; }
 }
 
 
+/*----- MENTION LEGALES -----*/
 
+.identite{
+  margin-top: 20px;
+  height: 200px;
+  line-height: 30px;
+  text-align: center;
+  height: 100%;
 
+}
+
+.ml{
+  border: 3px solid black;
+  padding: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
 
 
 

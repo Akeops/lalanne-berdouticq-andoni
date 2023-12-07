@@ -46,7 +46,7 @@
             <div class="column is-nav">
                 <ul>
                 <div class="column-title">Informations</div>
-                    <li class="liFooter"><a href="Mentions_Legales.html" class="footer_a">Mentions Légales</a></li>
+                    <li class="liFooter"><a href="./mentionsLegales.html" class="footer_a">Mentions Légales</a></li>
                     <li class="liFooter"><a href="#" class="footer_a">Conditions d'utilisation</a></li>
                 </ul>
             </div>
