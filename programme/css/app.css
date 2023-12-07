@@ -602,13 +602,17 @@ p a {
 
 .footer_a { 
   text-decoration: unset; 
+  
 }
 .footer_a:hover { 
   color: #ffbc4a;
-  text-decoration: underline; 
 }
 .footer_a { 
   color:#fff; 
+}
+
+.liFooter {
+  list-style: none !important;
 }
 ul > li { line-height: 1.5em; }
 .footer {
