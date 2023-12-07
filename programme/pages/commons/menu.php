@@ -24,7 +24,7 @@
           <a class="nav-link" href="index.php#mesProjets">Mes projets</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../source/pdf/Lalanne_Berdouticq_CV.pdf" download="Lalanne-Berdouticq-Andoni">Mon CV</a>
+          <a class="nav-link" href="../source/pdf/Lalanne-Berdouticq-CV.pdf" download="Lalanne-Berdouticq-Andoni">Mon CV</a>
         </li>
         
       </ul>

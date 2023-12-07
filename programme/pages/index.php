@@ -16,7 +16,7 @@ require '../utile/formatage.php';
             </div>
         </div>
         <div class="col-12 text-center boutonCV">
-            <a class="btn rounded-pill monBouton" href="../source/pdf/Lalanne_Berdouticq_CV.pdf" download="Lalanne-Berdouticq-Andoni">Télécharger mon CV</a>
+            <a class="btn rounded-pill monBouton" href="../source/pdf/Lalanne-Berdouticq-CV.pdf" download="Lalanne-Berdouticq-Andoni">Télécharger mon CV</a>
         </div>
     </div>
 </section>
