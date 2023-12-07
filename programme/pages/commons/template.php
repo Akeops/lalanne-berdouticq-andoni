@@ -11,46 +11,61 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     </head>
+    <script>
+        function openInNewTab(event) {
+            // Empêcher le comportement par défaut du lien
+            event.preventDefault();
+
+            // Récupérer l'URL du lien
+            var url = event.target.href;
+
+            // Ouvrir l'URL dans un nouvel onglet
+            window.open(url, '_blank');
+        }
+    </script>
     <body>
         <?php require("menu.php"); ?>
         <?= $content ?>
         <footer class="footer" id="footer">
-        <div class="inner">
-            <div class="column is-logo">
-                <div class="logo">
-                    <img src="../source/images/logoPortfolio.jpg" alt="logo" width="50px">
+            <div class="inner">
+                <div class="column is-logo">
+                    <ul>
+                        <div class="logo">
+                            <img src="../source/images/logoPortfolio.jpg" alt="logo" width="50px">
+                        </div>
+                        <div class="logo-info">
+                            <div class="footer_text">LALANNE-BERDUTICQ Andoni</div>
+                            <span class="copyright">© 2023. All rights reserved.</span>
+                        </div>
+                    </ul>
                 </div>
-                <div class="logo-info">
-                    <div class="footer_text">LALANNE-BERDUTICQ Andoni</div>
-                    <span class="copyright">© 2023. All rights reserved.</span>
+                <div class="column is-nav">
+                    <ul>
+                        <div class="column-title">Navigation</div>
+                        <li class="liFooter"><a href="index.php#presentation" class="footer_a">Présentation</a></li>
+                        <li class="liFooter"><a href="index.php#expPro" class="footer_a">Parcours Professionnel</a></li>
+                        <li class="liFooter"><a href="index.php#competencesPro" class="footer_a">Compétences</a></li>
+                    </ul>
+                </div>
+                <div class="column is-nav">  
+                    <ul>
+                        <div class="column-title">Contact</div>
+                        <li class="liFooter"><a href="mailto:lalanne.andoni1@gmail.com" class="footer_a"><i class="fa fa-envelope-open"></i>
+                                lalanne.andoni1@gmail.com</a></li>
+                        <li class="liFooter"><a href="#footer" class="footer_a"><i class="fa fa-phone"></i> 0662455792</a></li>
+                        <li class="liFooter"><a href="https://www.linkedin.com/in/andoni-lalanne-berdouticq-240104179/" target="_blank" rel="noreferrer" class="footer_a"><i
+                                    class="fa fa-linkedin"></i> LinkedIn</a></li>
+                    </ul>
+                    
+                </div>
+                <div class="column is-nav">
+                    <ul>
+                    <div class="column-title">Informations</div>
+                        <li class="liFooter"><a href="./mentionsLegales.html" class="footer_a" target="_blank">Mentions Légales</a></li>
+                        <li class="liFooter"><a href="#" class="footer_a">Conditions d'utilisation</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="column is-nav">
-                <ul>
-                    <div class="column-title">Navigation</div>
-                    <li class="liFooter"><a href="index.php#presentation" class="footer_a">Présentation</a></li>
-                    <li class="liFooter"><a href="index.php#expPro" class="footer_a">Parcours Professionnel</a></li>
-                    <li class="liFooter"><a href="index.php#competencesPro" class="footer_a">Compétences</a></li>
-                </ul>
-            </div>
-            <div class="column is-nav">  
-                <ul>
-                    <div class="column-title">Contact</div>
-                    <li class="liFooter"><a href="mailto:lalanne.andoni1@gmail.com" class="footer_a"><i class="fa fa-envelope-open"></i>
-                            lalanne.andoni1@gmail.com</a></li>
-                    <li class="liFooter"><a href="#footer" class="footer_a"><i class="fa fa-phone"></i> 0662455792</a></li>
-                    <li class="liFooter"><a href="https://www.linkedin.com/in/andoni-lalanne-berdouticq-240104179/" target="_blank" rel="noreferrer" class="footer_a"><i
-                                class="fa fa-linkedin"></i> Linkedin</a></li>
-                </ul>
-            </div>
-            <div class="column is-nav">
-                <ul>
-                <div class="column-title">Informations</div>
-                    <li class="liFooter"><a href="./mentionsLegales.html" class="footer_a">Mentions Légales</a></li>
-                    <li class="liFooter"><a href="#" class="footer_a">Conditions d'utilisation</a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+        </footer>
     </body>
 </html>

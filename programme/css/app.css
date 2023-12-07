@@ -412,7 +412,7 @@ div.presentationDescription p {
 
 
 /* Description des témoigagent */
-div p {
+div p, .texteMention {
   color: RGBA(0,0,0,0.68);
   font-weight: bolder;
 }
