@@ -9,7 +9,7 @@ require '../utile/formatage.php';
     <div class="container text-center">
         <div class="row divPresentation">
             <div class="col-12 col-xl-6  presentation">
-                <img src="../source/images/exemple.png" class="card-img-top img-fluid shadow-lg" alt="...">
+                <img src="../source/images/photoPresentation.png" class="card-img-top img-fluid" alt="photo de moi">
             </div>
             <div class="col-12 col-xl-6 presentationDescription shadow-lg text-start">
                     <p>Bonjour, je m'appelle Andoni Lalanne-Berdouticq, un passionné de développement informatique avec un BTS en SIO option SLAM. Ayant récemment repris mes études dans la lignée de mon BTS à Efrei, je me spécialise actuellement dans le développement Full-Stack en Javascript. Mon parcours m'a doté de solides compétences en PHP, Bootstrap, CSS, Docker et Javascript. </p>
@@ -297,7 +297,13 @@ require '../utile/formatage.php';
                 </div>
                 <div class="modal-body">
                     <img src="../source/images/projetPortfolio.png" class="card-img-top" alt="portfolio">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fugit nemo libero ipsa blanditiis earum unde, neque eum modi obcaecati repellendus odio quos deserunt sunt quia nobis reprehenderit! Laboriosam, optio.</p>
+                    <p class="texteProjet">C'est avec enthousiasme que je vous présente mon tout premier projet : mon propre portfolio. J'ai décidé de commencer par la création de mon site personnel, car je ressens le besoin de mettre en avant, dans un futur proche, les compétences que j'acquerrai et les projets dont je serai fier.<br><br>
+
+                    Ce portfolio représente non seulement un moyen de partager mes réalisations, mais aussi un voyage à travers mes compétences en développement web. J'ai élaboré ce site en utilisant principalement Bootstrap, un framework qui a grandement facilité la mise en place de la structure de la page. Pour ajouter ma touche personnelle, j'ai également intégré du CSS personnalisé, permettant ainsi de refléter ma créativité et mon style.<br><br>
+
+                    Je suis fier du résultat obtenu, mais je considère ce portfolio comme une première étape. Au fil du temps, je compte l'enrichir avec de nouveaux projets passionnants et des compétences affinées. C'est le début d'un parcours où je partagerai mes découvertes et mes accomplissements, tout en continuant à évoluer dans le monde captivant du développement web.<br><br>
+
+                    Merci de prendre le temps de découvrir mon travail. Je suis impatient de partager davantage avec vous au fur et à mesure que mon parcours se développe.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
